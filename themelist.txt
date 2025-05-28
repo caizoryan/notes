@@ -1,0 +1,99 @@
+doom-1337
+doom-Iosvkem
+nice: doom-acario-dark
+doom-acario-light
+doom-ayu-dark
+nice light theme: doom-ayu-light
+doom-ayu-mirage
+doom-badger
+doom-bluloco-dark
+doom-bluloco-light
+doom-challenger-deep
+doom-city-lights
+doom-dark+
+doom-dracula
+doom-earl-grey
+doom-ephemeral
+doom-fairy-floss
+doom-feather-dark
+doom-feather-light
+another beautiful light theme: doom-flatwhite
+doom-gruvbox-light
+doom-gruvbox
+doom-henna
+doom-homage-black
+doom-homage-white
+doom-horizon
+doom-ir-black
+doom-lantern
+doom-laserwave
+doom-manegarm
+doom-material-dark
+doom-material
+doom-meltbus
+
+nice: (brownish, not too high controast) Doom-miramare
+
+pretty nice: (
+		Doom-molokai
+		doom-monokai-classic
+)
+
+doom-monokai-machine
+doom-monokai-octagon
+doom-monokai-pro
+doom-monokai-ristretto
+doom-monokai-spectrum
+doom-moonlight
+doom-nord-aurora
+doom-nord-light
+doom-nord
+doom-nova
+doom-oceanic-next
+awesome: doom-oksolar-dark
+doom-oksolar-light
+doom-old-hope
+doom-one-light
+doom-one
+doom-opera-light
+doom-opera
+doom-outrun-electric
+doom-palenight
+doom-peacock
+doom-pine
+doom-plain-dark
+doom-plain
+doom-rouge
+doom-shades-of-purple
+doom-snazzy
+doom-solarized-dark-high-contrast
+doom-solarized-dark
+doom-solarized-light
+doom-sourcerer
+doom-spacegrey
+githubyy: doom-tokyo-night
+doom-tomorrow-day
+doom-tomorrow-night
+doom-vibrant
+doom-wilmersdorf
+doom-winter-is-coming-dark-blue
+doom-winter-is-coming-light
+doom-xcode
+doom-zenburn
+adwaita
+buzzlightyear: deeper-blue
+dichromacy
+leuven-dark
+leuven
+light-blue
+manoj-dark
+misterioso
+modus-operandi
+modus-vivendi
+tango-dark
+tango
+tsdh-dark
+tsdh-light
+wheatgrass
+whiteboard
+wombat

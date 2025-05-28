@@ -1,0 +1,15 @@
+# How to go only line by line
+
+Steps
+---
+1. Make a div that you want to go line by line width. (normal html)
+2. Make div stuck in one place so you cant scroll on it. (hint: use positiion fixed)
+3. on arrow keydown make div go up and arrow keyup make div go down
+> - [use window.onclick to get arrow key down](https://coderspacket.com/posts/detect-arrow-keypress-in-javascript-4/)
+> - use document query selector to find div
+> - [use .style to change top position](https://stackoverflow.com/questions/5191478/changing-element-style-attribute-dynamically-using-javascript)
+
+Resources
+---
+
+> - use window.onclick to get arrow key down
