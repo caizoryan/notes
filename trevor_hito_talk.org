@@ -1,15 +1,16 @@
-
 [[https://www.youtube.com/watch?v=3wugiS6xBJo][Link to the talk]]
-
-* Aesthetic and Political Convergence  
-
-
-* Flattening creates polarization
-
-
-[[./img.png]]
-
-Cultural objects to be crushed and converged into a single plane: the iPad. Essentially 
 
 * Psyops, Hallucination
  The more prominent or lets say more important question is how have AI/technologies made us hallucinate, how have they prompted us to hallucinate and how do our hallucinations take on a life of their, turning hallicinated things real. 
+
+* Invisibilization of labour.
+
+It takes 1.5 people to drive a self driving car. However that labour is invisibilized and hidden. It's essentially a mechanical turk.
+* Flattening creates polarization
+[[./img.png]]
+
+Cultural objects to be crushed and converged into a single plane: the iPad. Yet the single plane has axis, any space is dvisible, and division of such space is a way to discipline it. Dividing time into chunks makes it legible, and such is the same with space. Creating such a division, amplifies the polarization that this division creates.  
+
+* Aesthetic and Political Convergence  
+Everything looking the same. The aesthetic convergence, is a symptom of the political convergence.
+

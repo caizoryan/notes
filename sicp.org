@@ -1,0 +1,22 @@
+* Introduction to Computation
+Just basic imperative, declarative stuff...
+
+** Procedure and data abstraction
+Creating abstractions/black-boxes. Interfaces and programming paradigms -> in order to make abstractions work together. Interfaces are essentially what programming is all about, bringing abstractions together.
+
+** Metalinguistic Abstraction
+Layered languages, hardware/register languages... This seems interesting. Curious to see what this will be. 
+
+** Computation as a metaphor
+Capture descriptions of computaitonal practices to design solution to complex problems.
+Using language to do so - need fundamental primitives (means of combination and abstractions)
+
+** Distinction between process and procedure
+Process as exact steps, and procedure describes the steps
+
+** Scheme
+*** Language primitives
+    numbers
+    strings
+    booleans
+
