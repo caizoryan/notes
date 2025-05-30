@@ -16,7 +16,26 @@ Process as exact steps, and procedure describes the steps
 
 ** Scheme
 *** Language primitives
-    numbers
-    strings
-    booleans
+numbers
+strings
+booleans
 
+each element can be asked its value
+
+*** Cominations
+(+ 2 3)
+^
+symbol that dictates how sub-expressions are applied
+
+(+ (* 2 3) 4 ) -> 10
+
+this can be nested. 
+
+(define score 23)
+
+they can be named, for abstraction
+
+*** Read-Eval-Print
+Woop! we knw this... but basically above stuff to lol
+
+   

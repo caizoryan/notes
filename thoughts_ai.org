@@ -1,8 +1,11 @@
 * Deskilling
 * Hallucination
 * Invisibilazition of labour
-
 * Other notes
 True attention requires that you don’t view something in the world through the lens of “what can this thing do for me?”
 
 Algorithms pervert one’s attention. An atmosphere that promotes being performative does as well.
+
+* Outwards Links 
+[[file:trevor_hito_talk.org][Refer to Trevor Pagelen and Hito Steyrel Talk notes]]
+
