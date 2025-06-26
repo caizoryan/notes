@@ -1,0 +1,35 @@
+* Business plan
+** Business Description
+*** odd-monitor/off-unit.studio
+We are a web design and development studio focused on bridging the gap between digital and physical media. While print design tools are highly refined, web design remains dominated by developer-centric tools and workflows. Our goal is to bring design-driven thinking into the digital space, creating unique web experiences and products.
+
+Positioned at the intersection of digital materiality, physical computing, and AI, our studio aims to push the boundaries of how the web can feel, function, and inspire.
+
+** Structure overview
+Partnership
+
+** Services
+*** Websites (Full Stack solutions)
+- Hosting, CMS
+- Frontend (websites)
+- Shopify and stuff
+
+*** Digital
+- Social Media Graphics
+- Motion graphics
+- Identity (campaign/business)
+
+*** Print work
+- Print publications
+- Posters/flyers
+- Business Cards
+
+** Market Analysis
+*** Audience
+**** Business people (30%)
+Industrialists, and stuff
+**** Small business (30%)
+Sole proprietors
+**** Creative market (40%)
+Art galleries, collectives, independent artists, etc
+

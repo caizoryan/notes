@@ -1,0 +1,8 @@
+* Notes on personal writing,
+** Letting go of writing
+You need to learn to be able let go of writing. Write to think and when the writing doesn't serve you and your thoughts, archive it.
+
+* Notes about writing 
+** Relevant readings
+*** [[file:reading/kill_the_metric_in_your_head.org][Kill the metric in your head (notes)]]
+*** TODO [[file:reading/unoriginal.org][unoriginal]]

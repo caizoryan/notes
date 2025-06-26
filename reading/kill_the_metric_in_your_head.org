@@ -1,0 +1,21 @@
+* Kill the metric in your head : [[https://phirephoenix.com/blog/2025-05-30/metrics][Article Link]]
+Recently (<2025-05-31 Sat>) read this article and I will note down some of the quotes here.
+
+#+begin_quote
+We need attention from one another—our identities exist in context and reflection of one another—and I suspect we can no more change this than stop breathing air.
+#+end_quote
+
+This is akin to the [[file:burping dragon theory.org][burping dragon theory]].
+
+#+begin_quote
+When you have numbers to look at, it’s easy to care only about the numbers. If we want to truly care, we gotta kill the metrics in our heads.
+#+end_quote
+
+Easy fix, get rid of metrics from life :)
+This is something though that I think mastodon's shortcoming is. The people are great, the protocol is great but the platform still functions on the same engagement mechanism. I think one key difference here with mastodon is that there isn't someone owning the platform and hence extracting value from engagement produced by users. Owned, run and funded by smaller groups that can interop and talk...
+
+I also think I should take a look at RSS.
+
+#+begin_quote
+But the fact that the internet doesn’t have a mechanism for listening means that we’ve invented these kludgy quantification mechanisms to try and detect attention, and it is easy, so incredibly easy there are multiple books written about this, _to confuse the thing you’re measuring for the metric itself._
+#+end_quote

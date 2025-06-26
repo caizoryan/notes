@@ -1,0 +1,30 @@
+* Routine
+** A1 Push Day
+T1 Pushups (W)
+T2 Squats
+T3 Rows
+
+** A2 Hinge
+T1 Deadlift
+T2 OHP
+** A3 Pull Day
+** A4 Squat
+
+* Progression Protocol
+add 2.5kg / 5kg every session, when fail switch to next rep scheme
+** T1
+5x3+
+(if fail)
+
+6x2+
+(if fail)
+
+10x1+
+(if fail rest and restart 5x3) 
+** T2
+3x10
+3x8
+3x6
+** T3
+3x15+
+

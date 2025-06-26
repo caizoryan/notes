@@ -2,13 +2,16 @@
 IPCO office - Richmond 10
 ISSO office - Richmond 6
 SAS Office - Richmond 6
-SU Office - Richmon 6
+
+SU Office - 
+Richmond 6
+studentu@ocadu.ca
 
 * Resources
-Learning Zone - Annex Building - Level 1
+Learning Zone - 113 McCaul - Level 1
 https://www.instagram.com/ocadulibrary
 
-WLC
+WLC - 113 McCaul - Level 5
 https://www.instagram.com/ocadu_writingandlearning/
 
 IT
@@ -21,21 +24,25 @@ https://www.instagram.com/ocadulibrary
 Ada Slaight and Ignite gallery (find online)
 
 * Faculty offices
-** faculty of design: https://www.instagram.com/ocadu_design/
-designoffice@ocadu.ca
+** Faculty of Design
+@ocadu_design
 230 Richmond Street West, Room 910
-Advertising
+Email: designoffice@ocadu.ca
 
+Programs
+Advertising
 Environmental Design
 Graphic Design
 Illustration
 Industrial Design
 Material Art & Design
 
-** faculty of art: https://www.instagram.com/ocadu_art/
-artoffice@ocadu.ca
+** Faculty of Art
+@ocadu_art
 230 Richmond Street West, Room 915 
+Email: artoffice@ocadu.ca
 
+Programs
 Drawing & Painting
 Experimental Animation
 Integrated Media
@@ -43,10 +50,12 @@ Photography
 Printmaking & Publications
 Sculpture/Installation
 
-** faculty of arts and sciences: https://www.instagram.com/ocadu_fas/
-fas@ocadu.ca
+** Faculty of Arts and Sciences
+@ocadu_fas
 100 McCaul St., Room 315
+Email: fas@ocadu.ca
 
+Programs
 Creative Writing
 Digital Futures
 Indigenous Visual Culture
@@ -59,3 +68,17 @@ Liberal Studies
 Campus Life office - ocadcampuslife@ocadu.ca
 Health and wellness centre
 
+
+Campus Life
+Dorothy H. Hoover Library
+Faculty Offices
+Galleries and Exhibitions
+Health and Wellness Centre
+IT Services
+International Programs & Collaborations Office
+International Student Support Office
+Laptop Program
+Learning Zone
+OCAD Student Union
+Student Accessibility Services (SAS)
+Writing and Learning Centre
