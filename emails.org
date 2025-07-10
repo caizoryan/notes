@@ -61,4 +61,22 @@ I'm not sure if you have a technical audience, if so, I've been wanting to make 
 This website/tool I recently came across (which is super cool itself) implements the executable functions from the console thing.
 https://raphaelbastide.com/cascade/
 
+Lastly (and then I'll stop I promise), thinking of alive and rituals,,, did you ever play farmville on facebook :))
+I remember as a kid when I discovered farmville, I thought it was 'real' in some sense since it kept state over the days unlike the ephemeral online games. Harvesting crops and stuff took 'real time', like hours or so... in some sense it was sort of a ritualistic mechanism (or maybe an addiction mechanism depending on how you seen it) that would bring you back to the game over time. I'm wondering if a time based mechanism, maybe not harvesting crops but something that tethers the website to our lived world could be interesting. 
 
+This website by Linked by Air comes to mind. But I'm sure there's more examples.
+
+https://www.linkedbyair.net/projects/1-columbia-gsapp-identity
+
+Studio Moniker has tons of projects in similar themes as well.
+https://studiomoniker.com/projects
+
+If the lab has a physical space and server setup, something like this would be super fun too:
+https://studiomoniker.com/projects/puff-up-club
+
+
+Sorry for the extensive blabber,
+Hope to hear more from you soon!
+
+Best,
+Aaryan

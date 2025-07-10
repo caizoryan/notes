@@ -1,0 +1,6 @@
+* MVP
+- [X] given slug/slugs download channel to db
+- [X] with blocks
+- [ ] have user, attachment, image, source data
+- [ ] mount channel to fs
+- [ ] compare changes and push to are.na (only edit no delete)

@@ -1,0 +1,6 @@
+* FFMPEG
+** Cut/extract a clip from a video
+#+BEGIN_SRC
+ffmpeg -ss 00:16:40.0 -i input.mkv -c copy -t 00:00:55.0 output_nice.mp4
+#+END_SRC
+

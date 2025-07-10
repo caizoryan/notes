@@ -1,42 +1,28 @@
-* Buying
-** DONE buy groceries
-*** dal?
-*** ginger
-*** tomato
-*** grapes
-*** apple/pears
-*** onion
+* Remember
+** IPCO PDF thingie
+** Typeface from Persona, Make a ripoff
+** Make films (africa stuff) using web and JS 
+Like I did for lewis class, the speech website. Figure out a sequencing strategy... can also use stuff I did for anisha's thingie
+** Master emacs
+*** Org mode stuff?
+*** Jump to file under cursor
+./business.org
 
-** DONE buy cells ? to measure
-** DONE buy shrooms
-** DONE buy hoagies
-** TODO buy paint (?)
-*** TODO paint door
-* Others 
-** TODO make registration doc ()
-*** TODO Scrape canvas stuff 
-*** TODO Organize the stuff
-*** TODO Design the pdf
-** TODO prepare meal and medicine
-** TODO prepare dose
-** DONE plan out trip 
-*** timing (ferry, consumption, return)
-|---------+-------+-------|
-| name    |   tl1 |   tl2 |
-|---------+-------+-------|
-| home    | 07:00 | 08:00 |
-| ferry   | 07:45 | 08:30 |
-| reach   | 08:15 | 09:00 |
-|---------+-------+-------|
-| consume | 08:45 | 09:30 |
-| check   | 09:15 | 10:00 |
-|---------+-------+-------|
-| peak    | 11:00 | 11:45 |
-| end?    | 01:00 | 01:45 |
-|---------+-------+-------|
 
-*** thoughts
-** DONE clean kitchen
-** DONE clean washroom
-* S-P-A website 
+* S-P-A website
 ** TODO Add footer
+
+* To Schedule days (work periods) 
+- Organize and download typefaces (free and trials)
+
+* Things to do 
+- Make a film with/of veer and conversations
+- Make a book for armaan
+
+- Finish Are.na garden/backyard (and publish)
+  ./arena_garden.org
+
+- Watch, read and listen to stuff and (log what you did)?
+- Make progress on thesis work (reflection + prototype)  
+- (Maybe) learn to stitch/make stuff with fabric
+
