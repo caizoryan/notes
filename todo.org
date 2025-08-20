@@ -1,19 +1,14 @@
 * Remember
-** IPCO PDF thingie
 ** Typeface from Persona, Make a ripoff
 ** Make films (africa stuff) using web and JS 
-Like I did for lewis class, the speech website. Figure out a sequencing strategy... can also use stuff I did for anisha's thingie
+Like I did for lewis class, the speech website.
+Figure out a sequencing strategy... can also use stuff I did for anisha's thingie (timeline and all)
 ** Master emacs
 *** Org mode stuff?
 *** Jump to file under cursor
-./business.org
+./emacs.org
 
 
-* S-P-A website
-** TODO Add footer
-
-* To Schedule days (work periods) 
-- Organize and download typefaces (free and trials)
 
 * Things to do 
 - Work stuff with mom dad
@@ -22,14 +17,18 @@ Like I did for lewis class, the speech website. Figure out a sequencing strategy
 
 - Make progress on thesis work (reflection + prototype)  
 
+- Finish personal webstie!
 - Finish Are.na garden/backyard (and publish) ./arena_garden.org
 - C stuff
 - SICP course
 
-- Watch films,
+- Watch films
 - read books
 - listen to music
 
 - (Maybe) Make a film with/of veer and conversations
+- (Maybe) Make book with nani about plants in marathi
 - (Maybe) learn to stitch/make stuff with fabric
 
+* To Schedule days (work periods) 
+- Organize and download typefaces (free and trials)
