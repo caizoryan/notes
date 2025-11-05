@@ -6,8 +6,10 @@
 The piece I'm going to talk about is a projection activated poster that I made for the class Experimental type. The poster is printed using a 4 color CMYK laser print. On top of which handwritting and illustrations are rendered using a fluroscent highlighter.
 
 For the creation of this poster, I used 20lb 24x36 inches paper printed on using a wide format laser at the OCAD U printshop. Along with the mechanical production of using a laser printer, I also drew on the poster using a fluroscent highlighter. The poster is activated through a projection mapping process. I made a video on after effects that Mapps onto the poster. The video projection oscillates between different colors that reveal coloured elements on the poster. The changing colors from the video turn the poster into a live object that changes with the interactions between the light and the colored elements on the poster.
-	- Describe the different colours in this work and how they were incorporated 
-		- red, blue, yellow -> get the color codes and stuff
+
+The poster uses three main colors. A tone of blue, a tone of magenta and fluroscent yellow that comes from the highlighter. They all sit in solid colored layers on the poster. The colors were rendered in RGB color values and designed with these when viewing them on the screen. Upon printing the color environment changed from RGB, which is based on\ the color that is made from led pixels on the screen made up of red, green and blue to CMYK which is made up of 4 inks, them being Cyan, Magenta, Yellow and Key (black).
+
+The colors used in the projections are red, yellow, green and blue. They exist in a RGB color environment. However instead of light coming from individual LED pixels to combine into an image, a laser projector creates images by directing laser beams which are RGB(red, green, blue) onto a screen using mirrors. A digital signal modulates beam intensity and position rapidly, forming pixels and motion.
 
 (3) reasoning as to why those particular colours were selected
 	- how the use of colour impacts the overall atmosphere and effectiveness
