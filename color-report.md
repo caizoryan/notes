@@ -1,14 +1,17 @@
 # Outline
 
 ### Intro
-(1) Describe the piece
-The piece I'm
-(2) Describe the process of creation
-	- Materials and techniques used
+
+###### [1] Describe the piece
+The piece I'm going to talk about is a projection activated poster that I made for the class Experimental type. The poster is printed using a 4 color CMYK laser print. On top of which handwritting and illustrations are rendered using a fluroscent highlighter.
+
+For the creation of this poster, I used 20lb 24x36 inches paper printed on using a wide format laser at the OCAD U printshop. Along with the mechanical production of using a laser printer, I also drew on the poster using a fluroscent highlighter. The poster is activated through a projection mapping process. I made a video on after effects that Mapps onto the poster. The video projection oscillates between different colors that reveal coloured elements on the poster. The changing colors from the video turn the poster into a live object that changes with the interactions between the light and the colored elements on the poster.
 	- Describe the different colours in this work and how they were incorporated 
+		- red, blue, yellow -> get the color codes and stuff
 
 (3) reasoning as to why those particular colours were selected
 	- how the use of colour impacts the overall atmosphere and effectiveness
+	  The colors were chosen based on an investigation of different light and color interactions.
 
 
 ### Scientific Analysis
@@ -16,6 +19,8 @@ The piece I'm
 (1) The scientific analysis portion of this report should describe the physics of how colour is
 generated for the audience, including the specific materials and/or techniques used in creating
 the different colours in the piece.
+
+The color is printed using a laser printer on matte paper. The color is generated for the audience based on the pigments used.
 
 (2) Research and support by reputable sources 
 included in this section to explain the origin of those colours.
@@ -53,3 +58,19 @@ Figures, pictures, or diagrams sufficient for the reader to understand your chos
 
 Submit the report to the provided drop box on Canvas. It is your responsibility to ensure that the file is
 in a Canvas compatible and in a docx format.
+
+
+## Bibliography
+
+1. https://sp.ftn.uns.ac.rs/index.php/jged/article/view/451
+
+pdf view -> 
+https://sp.ftn.uns.ac.rs/index.php/jged/article/view/451/1282
+
+2. Relationship between Paper Whiteness and Color,
+Reproduction in Inkjet Printing, Guichun Hu,a,b,c,* Shiyu Fu,c Fuqing Chu,a and Maohai Lin a
+https://sci-hub.ru/10.15376/biores.12.3.4854-4866
+
+3. Optical paper properties and their influence on colour reproduction and perceived print quality
+
+4. A Model of How Interreflections Can Affect Color Appearance

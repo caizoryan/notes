@@ -1,0 +1,865 @@
+En 2012, il y a donc dix ans, paraissait le numéro de Graphisme
+en France intitulé « code <> outil <> design », qui explorait
+les enjeux d’une nouvelle petite révolution dans le domaine
+du design graphique : celle de la programmation. Dans un arti-
+cle intitulé « code = design », Kévin Donnot établissait un lien
+fort entre l’homogénéisation des outils logiciels du graphisme
+et des productions graphiques résultant de leur utilisation.
+Il défendait l’idée que les graphistes doivent s’approprier
+la programmation afin de pouvoir s’inventer leurs propres
+outils. Quant à Annick Lantenois, elle y exhortait également
+les designers graphiques à s’approprier les « textes de program-
+mation » (p. 20) et à se forger une culture numérique. Enfin,
+Casey Reas et Chandler McWilliams y présentaient les prati-
+ques d’une sélection de graphistes travaillant avec le code.
+Dix ans après ce numéro pionnier, nous souhaitons revisiter
+les questions qui l’ont traversé en vue de comprendre comment
+ont évolué les relations entre code et design graphique.
+En préambule à notre réflexion sur l’histoire récente
+de ce domaine, rappelons en quelques jalons que l’histoire
+du design graphique et de l’imprimerie est étroitement liée à celle
+de l’informatique. Dès les années 1960, les machines de photo-
+composition intègrent des micro-ordinateurs �. John W. Seybold,
+The World of Digital Typesetting, Media, Seybold Publications, 1984, p. 112-138, puis, dans
+les années 1970, des terminaux d’affichage sont inventés pour
+le travail de saisie des textes et de composition �. Ibid., p. 253-269.
+À la fin des années 1970, les langages de balisages standardisés
+se développent pour décrire la structure des documents à compo-
+ser et mettre en page avec les photocomposeuses et les machi-
+nes de traitements de texte informatiques �. Voir Jacques André,
+Richard Furuta et Vincent Quint, Structured Documents, Cambridge University Press, 1989.
+Au milieu des années 1980, la naissance de la Publication
+assistée par ordinateur (PAO) est issue de la convergence
+de l’ordinateur personnel, de l’interface graphique, de l’impri-
+mante laser, des logiciels de mise en page et du langage
+informatique de description et de manipulation de pages
+PostScript �. John W. Seybold et Fritz Dressler, Publishing From the Desktop, New York,
+Bantam Books, 1987. Progressivement, la chaîne de l’industrie graphi-
+que est profondément transformée et reconfigurée : des acti-
+vités jusque-là exécutées par des corps de métiers distincts
+(compositeur-typographe, maquettiste, metteur en page)
+4 5
+se retrouvent aux seules mains des graphistes �. Alan Marshall, « Organiser
+le travail typo. Du savoir-faire traditionnel à la PAO », L’Événement technique. Caractère, vol. 5, 1992,
+p. 202-206, qui organisent le domaine du design graphique tel que
+nous le connaissons aujourd’hui. Au milieu des années 1990,
+les avancées multimédias leur ouvrent de nouvelles oppor-
+tunités avec le développement de publications interactives sur
+CD-ROM �. Gilles Rouffineau, Éditions off-line. Projet critique de publications numériques,
+1989-2001, Paris, Éditions B42, 2018. Pourtant, bien vite, les institutions
+se tournent vers un Web naissant et plus intéressant pour leur
+communication. Au milieu des années 2000, l’évolution
+des possibilités de composition graphique sur le Web pousse
+peu à peu les designers graphiques à s’intéresser à ce nouvel
+espace de publication. Parallèlement, l’environnement de pro-
+grammation graphique Processing, né en 2001, démocratise
+un peu le code auprès de quelques designers graphiques.
+En 2012, la publication de « code <> outil <> design » coïncide
+avec un moment de prise de conscience et de questionnement
+de plus en plus intense autour de la dépendance du design
+graphique aux outils de la PAO et des apports possibles
+de la programmation.
+Aujourd’hui, ces questions au sujet de la relation
+entre code et design graphique sont toujours d’une grande actu-
+alité, mais elles se sont multipliées et précisées. Nous montre-
+rons d’abord comment ces relations se sont approfondies
+et diversifiées, puis nous présenterons un panorama
+des pratiques actuelles de la programmation en matière
+de graphisme �. Dans le présent article, en suivant l’exemple de Silvio Lorusso, nous
+emploierons les termes programmation et code de manière interchangeable, bien qu’une
+distinction existe : la programmation renvoyant davantage à une pratique professionnelle
+valorisée quand le code évoque plutôt un travail ouvrier. Voir Silvio Lorusso, « Learn to Code
+vs. Code to Learn: Creative Coding Beyond the Economic Imperative », in Demian Conrad et Silvio
+Lorusso, Graphic Design in the Post-Digital Age. A survey of practices fuelled by creative coding ,
+Eindhoven, Onomatopee, 2021. Nous explorerons enfin quelques-uns
+des impacts de la programmation sur le design graphique,
+via la diffusion de la culture de l’environnement libre et l’appa-
+rition d’enjeux spécifiques pour la mise en page sur le Web.
+
+ÉVOLUTION DU RAPPORT
+ENTRE DESIGN GRAPHIQUE ET CODE DEPUIS DIX ANS
+Une relative démocratisation de la programmation
+dans le design graphique
+Bien que le « numérique » ait été présenté longtemps
+en opposition à l’imprimé, notamment en tant que support
+de lecture venant remplacer le livre papier, il est aujourd’hui
+évident pour les graphistes que ce remplacement n’aura pas lieu.
+Ce nouvel environnement technique joue un rôle important
+dans les pratiques, offrant même de nouveaux terrains de jeux,
+comme celui de la création de sites web. La revue Back Office,
+créée en 2017 et spécialisée dans l’analyse des enjeux numé-
+riques, est exemplaire de la place centrale de ces questions
+dans la pensée actuelle du design graphique en France.
+Cette relative démocratisation est pour une large part passée
+par l’intégration progressive, et à des niveaux très différents,
+de la pratique du code dans les écoles d’art et de design. Là où,
+il y a une dizaine d’années, comme le raconte la graphiste
+Sarah Garcin, certaines écoles pouvaient se demander « en quoi
+est-ce du graphisme ? » face à des projets d’étudiant fondés sur
+la programmation �. Interview de Sarah Garcin par Rob van Leijsen in Conrad et Lorusso,
+ibid., p. 179, les projets de diplôme faisant appel à la program-
+mation sont aujourd’hui communs et largement acceptés.
+Malgré cette acceptation, si nous parlons d’une
+démocratisation relative, c’est qu’il faut tout de même nuancer
+la place donnée aujourd’hui au numérique en général,
+et à la programmation en particulier, dans les formations
+de design graphique en France. En 2009, Catherine de Smet
+notait : « Les déficits les plus souvent cités dans la formation
+des jeunes graphistes français concernent la maîtrise tech-
+nique en général (celle des outils numériques en par-
+ticulier). […] Les apprentissages techniques sont souvent perçus
+comme indignes – une menace de régression vers l’artisanat –
+dans des écoles d’art où depuis 1968 la transmission de savoir-
+faire a été souvent écartée au profit d’approches plus concep-
+tuelles » �. Catherine de Smet, « Apprendre et désapprendre », Graphisme en France, nº 15,
+Paris, Centre national des arts plastiques, 2008-2009, p. 3-15, ici p. 12. Force est
+de constater que cet héritage subsiste. Quoique l’on observe
+une prise en compte du numérique qui s’affirme dans les cursus,
+6 7
+la place que doit prendre l’apprentissage de la program-
+mation reste âprement discutée. Le numérique est-il une culture
+ou une question purement technique ? ��. Dominique Cardon, Culture
+numérique, Paris, Les Presses de Science-Po, 2019. Faut-il en faire un
+apprentissage spécifique ou l’intégrer à l’ensemble des
+formations ? Ainsi, même s’ils ont pu être sensibilisés parfois
+aux enjeux du numérique au cours de leur formation, les
+graphistes travaillant aujourd’hui avec la programmation
+affirment souvent encore s’être autoformés.
+Une diversification des possibilités offertes aux designers
+La difficulté à laquelle on se heurte lorsque
+l’on essaie d’expliciter la relation entre programmation et gra-
+phisme tient sans doute en partie au fait que celle-ci s’est
+aujourd’hui largement complexifiée. Cela s’explique surtout
+par la démultiplication et la diversification des langages de pro-
+grammation qui sont aujourd’hui accessibles aux designers
+et leur permettent d’étendre leur champ d’action dans de très
+nombreuses directions.
+Si certains graphistes, par leur expérience person-
+nelle, ont pu découvrir la programmation en autodidactes,
+les premiers logiciels qui ont offert une appropriation plus
+aisée de la programmation, car pensés pour la production
+graphique, datent de l’époque du multimédia, c’est-à-dire
+du milieu des années 1990. Le logiciel Flash, sorti en 1996, joua
+en ce sens un rôle pionnier, en mixant une interface graphique
+et des capacités de programmation. Peu de graphistes
+en France se sont emparés effectivement de ces outils qui don-
+naient la possibilité de concevoir des interfaces graphiques
+interactives et accessibles sur le Web ��. Le travail d’Étienne Mineur sur les sites
+d’Issey Miyake en est tout de même un exemple. Voir Étienne Mineur, « 10 ans en 640 × 480 »,
+Back Office, nº 3, Paris, Édition B42 et Fork Éditions, 2019. Le logiciel libre
+Processing, créé en 2001 par Benjamin Fry et Casey Reas,
+semble avoir connu plus de succès. Spécialement pensé pour
+les artistes visuels et les graphistes, il a ouvert pour beaucoup
+un nouvel espace de possibilités. Les graphistes s’en sont servis
+comme d’une marche pour accéder à d’autres langages qui
+n’étaient pas pensés directement pour eux, mais, plus
+généralement, il a servi d’exemple pour la création d’outils
+et de langages spécialisés dans les arts visuels et le graphisme,
+qui se sont depuis multipliés. On peut citer, par exemple,
+la boîte à outils dédiée au code créatif openFrameworks, créé
+en 2005, ou Unity, créé lui aussi en 2005, moteur de jeu utilisé
+pour développer des installations immersives, entre autres.
+Toutefois, la plus grande révolution de ces dix der-
+nières années a été assurément l’appropriation par les gra-
+phistes des technologies du Web. Dans le numéro de Graphisme
+en France de 2012, la création de sites n’est mentionnée expli-
+citement qu’une seule fois. Pourtant le Web, né en 1989, est
+déjà largement démocratisé en 2012 dans les foyers. En dehors
+de Flash, il apparaissait comme un espace complètement
+distinct du graphisme ou réduit à la position de simple sup-
+port de déclinaison d’une identité graphique. Il faut dire que
+ses apports à la mise en page sont longtemps restés trop suc-
+cincts pour être pris au sérieux par les graphistes ��. Eye Magazine,
+« Stop worrying and learn to love the Web », vol. 7, nº 25, été 1997, https://www.eyemagazine.com/
+feature/article/stop-worrying-and-learn-to-love-the-web Or, à présent, les techno-
+logies du Web n’ont rien à envier aux logiciels de mise en page
+classiques et les dépassent même souvent en proposant
+de nouveaux concepts (boîtes flexibles, fontes variables,
+transformations et animations, etc.) qui rendent ce nouvel
+espace de publication de plus en plus attrayant pour les expé-
+rimentations graphiques. La possibilité de travailler et publier
+plusieurs médias dans un même espace unifié (vidéos,
+processus génératifs, animations, etc.) a accru l’intérêt que
+les graphistes pouvaient avoir pour ce nouvel espace de publi-
+cation. Par ailleurs, HTML et CSS – les deux langages principaux
+sur lesquels repose le Web – sont des langages descriptifs
+proposant des paradigmes de programmation relativement
+réduits et donc plus accessibles que des langages nécessitant
+la maîtrise complète des concepts d’algorithmie ou un temps
+de compilation. Malgré la complexité grandissante du Web
+et de ses technologies, le potentiel d’apprentissage est consi-
+déré comme exponentiel, car les connaissances s’ajoutent
+les unes aux autres sans changer d’environnement.
+Aujourd’hui, même l’outil pionnier Processing a compris cet
+avantage et propose une version Web à travers la librairie
+de code P5.js, fondée sur le langage JavaScript, un langage
+de script léger employé principalement pour rendre les sites
+interactifs.
+
+
+CREATIVE CODING, WEBDESIGN, WEB TO PRINT
+ET CRÉATION D’OUTILS : DES PRATIQUES
+QUI S’AFFIRMENT ET SE DIFFÉRENCIENT
+La multiplication des langages et des plateformes accessibles
+a mené en parallèle à une diversification des pratiques liées
+à la programmation. Après dix ans, il est possible et utile d’es-
+quisser à grands traits une carte de ces nouveaux territoires
+du graphisme, permettant de définir plusieurs rapports complé-
+mentaires à la programmation. Nous nous concentrons sur
+la France et ses voisins européens, essentiellement la Belgique,
+la Suisse et les Pays-Bas. Notons que les différents pôles au sein
+de ce nouvel espace du graphisme numérique sont loin d’être
+étanches, et les graphistes naviguent aisément de l’un à l’autre
+au gré des projets ou parfois au sein d’un même projet.
+Le creative coding
+Le premier pôle est parfois désigné par l’appellation
+creative coding (« code créatif »). Dans ce cadre, le code sert
+avant tout d’outil expérimental de conception de formes
+et de motifs graphiques. Une fois générés, ceux-ci sont ensuite
+parfois directement utilisés, mais ils peuvent aussi être
+réinvestis dans une grande variété de médias. En design gra-
+phique, ces formes peuvent être employées dans la production
+d’objets imprimés tels que des affiches, des identités ou
+des couvertures de livre, mais aussi pour concevoir des anima-
+tions (motion design), des installations ou des performances.
+Les expérimentations sont donc souvent à la fois visuelles
+et interactives. Si la PAO avait rendu extrêmement accessible
+la production de formes graphiques, en contribuant cer-
+tainement à dévaluer l’expertise attachée à la profession
+de designer graphique, la programmation peut aujourd’hui
+être utilisée comme un moyen de se réapproprier une exper-
+tise technique ainsi que des possibilités formelles et esthé-
+tiques peu accessibles à des non-programmeurs.
+Le creative coding a participé à un renouvellement
+des formes graphiques, nourri par les spécificités du code.
+L’usage de la programmation se fait sous forme d’expérimen-
+tations et de « bricolages » où le code est vu comme un maté-
+riau avec ses propres tendances ��. Demian Conrad, « Introduction », in Conrad
+et Lorusso, op. cit. à la note 7, p. 11, notre trad. Il s’agit alors d’apprendre à dialo-
+guer avec lui afin de découvrir des configurations qui n’étaient
+pas envisagées en amont de la pratique, tout en valorisant
+les « accidents » ��. David Crow, « Magic box: craft and the computer », Eye Magazine,
+vol. 18, nº 70, hiver 2008, http://www.eyemagazine.com/feature/article/magic-box-craft-and-the-
+computer Plus qu’un travail sur la signification des formes, l’ac-
+cent est donc mis sur le processus, comme cela a été explicité
+�
+Le laboratoire de graphique de Jacques Bertin,
+utilisation du code pour générer un visuel interactif
+et animé, fondé sur des formes simples, dans
+un contexte de communication via un site web,
+design graphique et développement : Élise Gay
+et Kévin Donnot, ����
+�
+10 11
+par les graphistes de LUST, présentés dans l’article de Casey
+Reas et Chandler McWilliams : « Dans notre studio, la forme
+est le résultat d’un processus » ��. Interview de LUST par Casey Reas et Chandler
+McWilliams, in Graphisme en France, nº 18, Paris, Centre national des arts plastiques, 2012, p. 31.
+En particulier, la génération programmée de formes permet,
+principalement, la production de grandes séries constituées
+d’un nombre potentiellement infini de variations graphi-
+ques, chacune unique mais possédant une cohérence d’en-
+semble, un air de famille au sens que lui confère Ludwig
+Wittgenstein ��. « Je ne saurais mieux caractériser ces ressemblances que par l’expression
+d’“air de famille” ; car c’est de cette façon-là que les différentes ressemblances existant entre
+les membres d’une même famille (taille, traits du visage, couleur des yeux, démarche, tempé-
+rament, etc.) se chevauchent et s’entrecroisent […] il n’y a pas de trait précis (comme un nez
+retroussé) qui soit partagé par tous les membres de la famille et qui constituerait l’“essence”
+de l’air de famille » (Ludwig Wittgenstein, Recherches philosophiques [1953], Paris, Gallimard,
+trad. all. Françoise Dastur, Maurice Élie, Jean-Luc Gautero, Dominique Janicaud et Élisabeth
+Rigal, 2014, § 67). C’est par exemple ce procédé qui était à l’œuvre
+dans la production des dix mille couvertures uniques créées
+par l’atelier Pentagon pour le numéro de Graphisme en France
+de 2012.
+Dans la pratique du code créatif, les passerelles avec
+le milieu de l’art sont nombreuses et les productions se situent
+souvent à la frontière entre art et graphisme, « une sorte d’ex-
+tension de la pratique artistique du designer graphique » ��. Conrad,
+op. cit. à la note 13, p. 20. Les formes produites sont pensées généra-
+lement comme des expérimentations à forte dimension esthé-
+tique et les questions de lisibilité, en revanche, ne sont que peu
+abordées. Le choix de l’intitulé « code créatif » renvoie lui-
+même, comme l’explique Demian Conrad, à un « mouvement
+actif et global en termes de création artistique » ��. Ibid. au sein
+duquel les graphistes ont pu trouver leur place et en utiliser
+les outils pour des travaux de commande. Le mouvement
+du creative coding fait revivre, d’une certaine manière,
+le domaine des arts visuels, terme adopté en 2012 par Casey
+Reas et Chandler McWilliams dans leur article pour décrire
+les pratiques qu’ils y présentent. Cette intrication fait plus
+largement écho à la situation actuelle du graphisme en France,
+reposant, selon le graphiste et chercheur Yann Aucompte, sur
+un « postulat de l’auctorialité comme essence de la pratique
+de design graphique », un modèle dans lequel le designer
+graphique proposerait des « compositions plastico-graphiques
+singulières et inédites » ��. Yann Aucompte, « Des mondes-ateliers : les lieux
+et les milieux de la fabrique du design graphique », in Claire Azéma (dir.), Design Arts Médias,
+« Les Arts de faire : Acte 1 – Les modes d’existence de l’atelier en Arts et en Design », novembre 2021,
+en ligne, https://journal.dampress.org/issues/les-arts-de-faire-acte1-les-modes-dexistence-de-latelier-
+en-arts-et-en-design/des-mondes-ateliers-les-lieux-et-les-milieux-de-la-fabrique-du-design-graphique
+Le webdesign
+À côté de ce premier pôle, un second s’est développé,
+celui du webdesign, c’est-à-dire du Web comme format de publi-
+cation graphique. Dans ce cadre, le code est à la fois l’outil
+de travail et le support final de la publication. Pour saisir
+le rôle pris par le graphisme dans ce domaine, il faut
+comprendre les autres acteurs qui travaillent à la création
+de sites. En effet, des pages statiques les plus simples aux plate-
+formes et applications sophistiquées, en passant par les sites
+de commerce électronique, le Web héberge de nos jours
+une multitude de formes. Certaines concernent plus direc-
+tement les designers graphiques (sites vitrines, livres, etc.)
+alors que d’autres (plateformes et applications métier, par
+exemple) sont devenues l’apanage d’une nouvelle profession,
+celle de designer d’interface utilisateur (designer UI), qui
+travaille généralement, via des logiciels dédiés (Figma, etc.),
+à produire un système de design (design system) atomisé qui sera
+ensuite implémenté par des développeurs ��. Brad Frost, Atomic Design,
+2016, en ligne, https://atomicdesign.bradfrost.com/ Par ailleurs, de nombreuses
+plateformes rendent possible la création de pages par le biais
+de templates personnalisables (WordPress, Wix, etc.), passant
+outre le travail spécifique du design graphique.
+Historiquement, la conception graphique de sites
+web a connu un double mouvement, de fermeture d’abord,
+puis de relative réouverture. De l’espace de liberté permettant
+à chacun de publier des pages ne respectant aucune des règles
+du graphisme qu’elle fut à ses tout débuts ��. L’artiste et chercheuse Olia
+Lialina regroupe aujourd’hui ces premiers sites sous le terme de web vernaculaire : présence
+à outrance d’icônes animées, contrastes colorés et textures de fond rendant difficile la lecture sont
+parmi les caractéristiques de ce premier âge du web : http://art.teleportacia.org/observation/
+vernacular/, la conception de sites s’est progressivement profession-
+nalisée, entraînant la définition progressive de normes gra-
+phiques passant, entre autres, par la popularisation de « kits
+12 13
+d’interface » comme Bootstrap et la prise en compte de nor-
+mes d’accessibilité. Parallèlement à cette fermeture graphique,
+le Web, avec son ouverture technique, a ménagé l’existence
+d’espaces de liberté qui ont apporté à une nouvelle génération
+de graphistes la possibilité d’expérimenter de nouvelles
+formes graphiques de publication. S’est produite alors la scis-
+sion que l’on connaissait déjà dans l’imprimé ��. Jean-Pierre Durand
+et Joyce Sebag, Métiers du graphisme, Paris, La Documentation française, 2012, entre
+la domination d’une communication très normée d’un côté,
+réalisée par des agences spécialisées, et quelques acteurs
+de l’autre, souvent institutionnels ou culturels, qui passent
+des commandes auprès de graphistes web indépendants.
+Le métier de ces derniers, que l’on peut nommer webdesigners,
+peut être comparé à une nouvelle forme d’artisanat, une pra-
+tique qui s’est largement développée en opposition à l’indus-
+trie du design d’interface. Cela se traduit notamment par
+l’utilisation des technologies du Web de manière relativement
+brute, c’est-à-dire sans templates préconçus, en tentant
+de s’appuyer au maximum sur les langages HTML et CSS, qui
+permettent de structurer et de mettre en forme le contenu,
+tout en minimisant le recours à des bibliothèques externes
+de code pour conserver la maîtrise de l’ensemble du site.
+Cette reprise en main technique a été l’occasion pour des
+graphistes de continuer à faire vivre la culture du graphisme
+et d’en renouveler les enjeux. Ici, ce sont moins les formes
+graphiques qui importent que les questions traditionnelles
+du graphisme que sont la lisibilité, la hiérarchie de l’infor-
+mation, mais aussi de nouvelles questions comme l’interaction
+avec les lecteurs et la multiplication des tailles d’écran.
+Dans cette idée, beaucoup de designers prennent
+position contre une esthétique souvent très lisse et très ima-
+gée, qui, ces dernières années, a été l’objet de nombreuses
+critiques fustigeant une homogénéisation du Web ��. Sam Goree,
+« Science confirms it: Websites really do all look the same », fastcompagny.com, 5 juillet 2020,
+https://www.fastcompany.com/90501691/science-confirms-it-web-sites-really-do-all-look-the-same.
+Pour un contrepoint à ces critiques, voir « Pourquoi les sites web se ressemblent tous ? »,
+radicalweb.design, 2020
+En réaction, certains d’entre eux ont développé une
+esthétique parfois nommée brutaliste ��. Kate Moran, « Brutalism and Anti-
+design », Nielsen Norman Group, 5 novembre 2017, https://www.nngroup.com/articles/brutalism-
+antidesign/. Voir aussi https://radicalweb.design/fr, qui traduit l’idée qu’un site
+devrait graphiquement suivre l’essence technique du Web,
+en adopter la fluidité et l’adaptabilité natives. Ainsi, en Europe
+et en France s’est développé un webdesign très minima-
+liste, portant une grande attention au texte, à la sémantique
+et à la typographie, et qui ne peut pas faire l’économie d’un
+code « écrit à la main », véritable moyen de répondre à ces
+enjeux ��. J. R. Carpenter, « A Handmade Web » (2015), Uniformagazine, nº 5, 2016, en ligne,
+http://luckysoap.com/statements/handmadeweb.html Cette prééminence du texte
+peut notamment être interprétée comme un écho à la culture
+hacker de la ligne de commande décrite par Eric Schrijver,
+ce qu’il appelle le « fétiche du texte brut » ��. Eric Schrijver, « Hacker Culture
+and the fear of WYSIWYG », i.liketightpants.net, 22 mai 2014, en ligne, https://i.liketightpants.net/
+
+---
+
+and/hackers-culture-and-the-fear-of-wysiwyg Cela s’accompagne également
+parfois de l’utilisation de certains des gimmicks du Web
+vernaculaire ��. Lialina, op. cit. à la note 21, une époque du Web que
+nombre de graphistes ont pourtant regardé de loin ��. Eye Magazine,
+op. cit. à la note 12. Au moyen d’une série d’entretiens avec des desi-
+gners graphiques travaillant le Web, Yann Aucompte donne
+à voir les raisons derrière certains de ces choix : « Benoît Verjat
+cherche une esthétique du “par défaut” qui s’éloigne suffisam-
+ment d’une esthétique flat design, trop associée aux start-up.
+Le logiciel se présente comme une suite de rectangles aux
+contours noirs fins. » Pour le chercheur, « cette idéologie
+correspond à un réinvestissement des idées modernistes
+du Bauhaus […] » ��. Aucompte, op. cit. à la note 19.
+Si nous devions chercher une certaine spécificité des
+pratiques du webdesign en France, nous la situerions
+principalement dans son rapport critique aux sites commer-
+ciaux et consommateurs de ressources. Les questions de l’im-
+pact social, politique, économique et écologique du webdesign
+y font en effet l’objet d’une attention particulière. Elles se tra-
+duisent sous la forme d’une recherche de radicalité, que Julien
+Bidoret, enseignant à l’École supérieure d’art et de design des
+Pyrénées, explore à travers la notion de « web design radical »
+exposée avec de nombreuses ressources sur le site
+radicalweb.design. Il y défend que le webdesign radical se place
+dans une démarche tant d’ouverture, de durabilité, d’inclu-
+sivité que de sensibilité et de subversivité, des notions déjà
+présentes dans le projet initial du World Wide Web et de son
+premier slogan : « Let’s Share What We Know » (« Partageons
+ce que nous connaissons »).
+Le Web to Print
+Plus récemment, et au-delà du Web en tant qu’espace
+de publication spécifique, les technologies du Web servent
+de plus en plus à la mise en page de publications qui ne sont
+pas uniquement destinées à l’écran, mais qui sont aussi impri-
+mées. Dès son apparition, CSS a été imaginé pour permettre
+des mises en forme diversifiées des contenus en fonction des
+supports de sortie.
+En France comme dans les pays voisins, tels que
+la Belgique, la Suisse et les Pays-Bas, ces dernières années
+ont vu le développement de pratiques de designers graphiques
+autour de la publication imprimée et/ou multisupport à partir
+des langages du Web, quelquefois qualifiées de web to print
+(« du web à l’impression »). Pionnier dans le domaine, le col-
+lectif de graphistes Open Source Publishing recourt à cette
+technique dès 2013 pour la mise en page du programme
+du théâtre de la Balsamine, qui est donc réalisée directement
+dans un navigateur web. Fondé en 2017 par les graphistes
+Sarah Garcin et Raphaël Bastide, PrePostPrint a permis
+de rendre visibles ces pratiques. Conçue comme un espace
+de rencontres pour des designers graphiques, des enseignants
+et étudiants travaillés par des problématiques de publications
+alternatives – la plupart étant liées aux technologies du web –,
+l’initiative a véritablement fait école et se trouve à l’origine
+de plusieurs événements ��. L’initiative est à l’origine de différents workshops,
+d’un Salon de l’édition alternative et libre organisé le 21 octobre 2017 à la Gaîté Lyrique, à Paris,
+et de deux journées d’étude qui se sont tenus les 3 et 4 avril à l’École nationale supérieure des arts
+décoratifs. Aujourd’hui, elle existe sous la forme d’un site web regroupant diverses ressources
+à propos de publications expérimentales conçues avec des outils libres : https://prepostprint.org/
+Plus récemment, une bibliothèque mobile a été lancée, coor-
+donnée par l’artiste-chercheuse Lucile Haute, réunissant
+les publications imprimées produites avec les technologies
+du web ��. Site web : http://2print.org/
+16 17
+Ces nouvelles pratiques trouvent un écho de plus
+en plus fort auprès des designers graphiques concernés par
+la relation à leurs outils et leurs valeurs culturelles intrin-
+sèques. À partir d’un engouement pour des technologies libres
+et open source, ce sont majoritairement les possibilités
+d’expérimentation graphiques, multimédias et alternatives qui
+sont explorées. Ainsi, de nombreux workshops fleurissent
+dans les écoles d’art et de design ces trois dernières années.
+Certaines publications qui en résultent font revivre l’idée du fan-
+zine et de l’auto-publication. Elles permettent de rejouer l’idée
+d’une appropriation et d’une maîtrise complète de la chaîne
+des outils et machines nécessaires à la publication imprimée
+et de revendiquer un renouvellement des formes graphiques
+« trop lisse » imputées à l’hégémonie du logiciel de mise en page
+Adobe InDesign. D’autres projets se rapportent plutôt à des expé-
+rimentations multimédias et performatives, proposant la géné-
+ration de posters, livrets et autres médias à partir de formes
+générées en temps réel sur la base de notes collaboratives,
+de captures d’image ou de vidéos associées à un événement
+ou de corpus de documents sélectionnés pour l’occasion.
+On peut citer par exemple le travail de documentation en temps
+réel du collectif G.U.I. dans le cadre du colloque « Expéri-
+menter le musée » à l’École nationale supérieure des arts
+décoratifs, à Paris en 2014.
+Toutefois, une autre approche de l’utilisation des tech-
+nologies du web pour l’impression se retrouve dans des pra-
+tiques de design éditorial à plus grande échelle. Le principe
+de séparation du fond et de la forme où un langage est
+employé pour structurer les contenus (HTML) et un autre pour
+�
+Livre Controverses. Mode d’emploi �édité par
+Forccast et les Presses de Sciences Po, �����, conçu
+et programmé par Sarah Garcin, �� prévisualisation
+du livre dans le navigateur, �� extrait du code CSS
+utilisé pour programmer la mise en page via paged.js,
+�� double page du livre imprimé
+3
+18 19
+décrire la présentation (CSS) avec des feuilles de styles dédiées
+à chaque support (écran mobile, écran d’ordinateur, liseuse,
+imprimé) y est mobilisé pour produire des mises en forme
+différenciées appliquées à un même contenu selon les formats
+de sortie envisagés. Ce principe offre non seulement de mutu-
+aliser les outils de composition pour les éditions web et pour les
+éditions imprimées, mais aussi de mobiliser le système collabo-
+ratif des métiers de la programmation, ses outils et ses méthodes,
+ce qui est particulièrement intéressant pour les chaînes de publi-
+cation ��. Antoine Fauchié et Thomas Parisot, « Repenser les chaînes de publication par
+l’intégration des pratiques du développement logiciel », Sciences du design, nº 8, 2018, p. 45-56.
+
+---
+
+Ainsi, cette approche a facilité la réalisation d’un catalogue
+multisupport pour le musée Saint-Raymond de Toulouse.
+Conçues par Julie Blanc et Antoine Fauchié, les versions
+du catalogue (un site web et une édition imprimée) utilisent
+toutes les deux les technologies du web pour mettre en forme
+un contenu qui a été produit depuis un même espace de travail
+collaboratif par les employés du musée ��. Pour plus d’information, voir le bil-
+let de blog « Une chaîne de publication collaborative et multisupport pour le musée Saint-Raymond »,
+julieblanc.fr, 5 novembre 2020, https://julie-blanc.fr/blog/2020-11-05_chiragan/ Dans la même
+idée, Sarah Garcin a travaillé une publication multisupport,
+Controverses. Mode d’emploi � � � , pour le programme Forccast
+et les Presses de Sciences Po. La version imprimée de l’ouvrage
+joue de façon discrète avec les processus génératif qu’amène
+l’utilisation de la programmation. Dans chaque page de titre
+des différentes parties de l’ouvrage, le symbole « + », motif
+graphique utilisé à plusieurs reprises dans le livre et qui rap-
+pelle les repères cartographiques, est généré autant de fois
+que le numéro de la page du titre de la partie l’indique.
+L’ensemble est disposé aléatoirement dans la page.
+Enfin, toujours dans le domaine de l’édition, les tech-
+nologies du web sont aussi fort utiles pour concevoir des
+collections d’ouvrages grâce à des feuilles de style travaillées
+de manière très fine s’appuyant sur un découpage séman-
+tique rigoureux. En ce sens, la collection « Interventions »
+de C&F éditions est exemplaire. Dans deux billets de blog très
+complets ��. Nicolas Taffin, « Making-of d’une collection libérée. Addictions sur
+ordonnance », polylogue.org, 10 février 2019, https://polylogue.org/addictions-sur-ordonnance-
+making-of-dune-collection-liberee/, et « Dans les recoins de la double page (Paged.js à la maison,
+saison 2) », polylogue.org, 1er mars 2021, https://polylogue.org/apres-la-page-la-double-page/,
+le designer graphique et co-fondateur des éditions, Nicolas
+Taffin, revient sur la mise en page de cette collection avec
+les technologies du Web et illustre la manière dont, pas à pas,
+il s’est réapproprié la maîtrise de certains principes de compo-
+sition graphique jusqu’alors masqués par les habitudes des
+logiciels de PAO ��. Notons que l’utilisation des technologies du web pour l’impression
+n’est aujourd’hui pas directement possible en utilisant HTML et CSS depuis un navigateur.
+Elle nécessite l’ajout de libraires JavaScript palliant le manque d’implémentation des navigateurs
+concernant les syntaxes CSS dédiées à l’impression. Ainsi, l’ensemble des projets que nous avons
+donnés en exemple utilisent la librairie Paged.js, développée principalement par Fred Cahsen
+et à laquelle participent deux designers graphiques français, Julien Taquet et Julie Blanc.
+
+La création d’outils
+Dans son article de 2012, Kévin Donnot appelait
+à se servir de la programmation pour créer de nouveaux outils
+et pour dépasser le monopole qu’entraîne l’utilisation presque
+�
+�
+Texturing, interface de l’outil, design : Ivan Murit
+20 21
+exclusive de la suite de logiciels Adobe dans les écoles comme
+chez les graphistes professionnels : « Un graphiste-hacker
+pourrait créer ses programmes à sa main, pour répondre à ses
+exigences propres, lesquelles participent de son statut
+d’auteur. » En effet, l’usage de la programmation a été pensé
+dès le début, et encore aujourd’hui, comme la réappropriation
+par les graphistes de leurs outils de production et la remise
+en cause du monopole d’Adobe. Cet imaginaire s’est traduit
+diversement dans les pratiques.
+En France, quelques designers graphiques se sont
+spécialisés dans la production de logiciels et applications
+alternatifs utilisables par des graphistes non programmeurs.
+Le designer graphique Ivan Murit développe ainsi depuis 2015
+le logiciel TexTuring ���, fondé sur la création de trames à l’es-
+thétique organique ��. Voir https://ivan-murit.fr/project.php?side=art&w=texturing
+Lui aussi designer graphique de formation, Yannick Mathey
+a lancé en 2009 le développement du logiciel Prototypo, dédié
+à la personnalisation de polices de caractères fondés sur les
+templates paramétrables ��. Voir https://www.prototypo.io/. Le développement
+de Prototypo a depuis été arrêté, montrant la difficulté pour les graphistes de faire exister
+de manière pérenne et économiquement viable des outils alternatifs. Si TexTuring est
+aujourd’hui toujours diffusé sur le site de son auteur,
+Prototypo s’est arrêté, faute d’avoir pu trouver son modèle
+économique. Ces rares exemples d’outils destinés à des non-
+programmeurs ne doivent pas faire oublier que la grande
+majorité des outils programmés par les designers graphiques
+sont développés pour des pratiques personnelles ou pour des
+projets spécifiques. Pour la série de conférences et workshops
+« Feminist Hack Meetings » organisée à l’espace Varia
+de Rotterdam, en 2021, Amélie Dumont a programmé un géné-
+rateur de posters grâce auquel les participantes pouvaient
+choisir de changer certains éléments du poster à chaque évé-
+nement : outre les informations, elles pouvaient, par exemple,
+agir sur les couleurs et les images. Ce genre de projet implique
+l’idée d’une création sur mesure où l’outil lui-même devient
+la production des designers graphiques.
+Notons que l’optimiste un peu utopique qui a pu lais-
+ser croire que la communauté des designers graphiques serait
+à même de créer ses propres outils reste ancré autour d’un
+imaginaire de la conception de logiciels, alors que la réalité
+des pratiques montre une tout autre voie. Ainsi, la plupart des
+outils développés par les designers graphiques relèvent plutôt
+de la conception de petits modules programmés dédiés à une
+tâche spécifique et dont le code source est partagé afin que
+d’autres puissent l’intégrer dans leurs propres projets en addi-
+tion à d’autres programmes. Le collectif Bonjour Monde
+conçoit et partage de la sorte de petits programmes per-
+mettant de produire des typographies expérimentales à l’aide
+de Python (Dataface), de créer des images qui se répètent sur
+elles-mêmes (Stuttttter) ou encore de transformer des images
+en « vigne vectorielle » (Vinny). Plus généralement, les produc-
+tions des designers graphiques fondées sur les technologies
+du Web impliquent souvent la création ou l’adaptation
+de scripts dédiés à une tâche graphique ou interactive spéci-
+fique : par exemple, pour le tramage des images, un principe
+d’interaction, la répétition d’éléments, etc. L’autonomie
+de production repose donc sur la création de programmes
+additionnables simples fabriqués avec des langages et des
+technologies ouvertes facilement interpolables. Plus qu’une
+production d’outils qui viendraient directement concurrencer
+les logiciels traditionnels de la PAO, c’est sur ce terrain
+spécifique que se déploie une intense production d’outils
+originaux, aussi appropriables par les graphistes-codeurs
+qu’inaccessibles aux graphistes ne programmant pas.
+
+QUELQUES IMPACTS DE LA PROGRAMMATION
+SUR LE GRAPHISME
+L’éthique du libre, une transformation profonde des pratiques
+Toutes ces pratiques de la programmation ont en
+commun une certaine éthique, une culture de la programma-
+tion qui n’est pas uniquement technique. La place que prend
+aujourd’hui la programmation dans le domaine du graphisme
+ne peut en effet pleinement s’appréhender sans comprendre
+le lien qu’elle entretient avec la culture du libre issue de l’infor-
+matique. En 2012, dans son texte, Kévin Donnot évoquait déjà
+les logiciels libres et le hacking comme un aspect notable
+de la programmation. Dix ans plus tard, on peut constater que
+la culture du libre s’est effectivement diffusée largement dans
+le monde du graphisme numérique.
+22 23
+L’un des aspects les plus importants de la culture
+du libre est la possibilité d’accéder au code du programme
+ou du logiciel que l’on utilise. Cela implique en parallèle
+un rejet des outils et logiciels dont on ne peut pas inspecter
+la mécanique pour en comprendre le potentiel et les limites.
+Les graphistes travaillant avec la programmation cherchent
+ainsi souvent à utiliser, autant que possible, des logiciels libres
+et open source, c’est-à-dire des logiciels dont la licence permet
+l’inspection, la modification et la duplication du code ��. Sur son
+site, la graphiste Amélie Dumont explique, par exemple, qu’elle « porte un intérêt […] à expéri-
+menter avec du code dans [ses] projets » et qu’elle ne « travaille qu’avec des logiciels libres depuis
+2016 » car les deux choses vont pour elle de pair (https://www.amelie.tools/).
+Cet aspect, quoique fondamental, n’est cependant
+pas l’unique rôle joué par la culture du libre, qui a impacté
+également les manières de travailler, en favorisant les colla-
+borations. Dans un milieu du graphisme extrêmement lié
+à la notion d’autorat, la culture du libre a encouragé le déve-
+loppement de collectifs. Nous avons déjà pu en citer quelques-
+uns : Open Source Publishing (OSP) – pionnier du design
+graphique libre et déjà cité il y a dix ans dans Graphisme
+en France – est certainement le plus connu. Si ses membres ont
+entre-temps beaucoup évolué, le collectif est toujours actif
+et perpétue son approche. D’autres collectifs ont également
+émergé, on peut citer Bonjour Monde ainsi que Luuse. L’usage
+de la programmation facilite le travail commun et simultané,
+notamment via l’utilisation du logiciel de gestion de versions
+Git ��. En informatique, un logiciel de gestion de versions permet de stocker des fichiers
+et toutes les modifications qui y ont été apportées. Ce sont des outils très efficaces pour gérer
+l’écriture collaborative de code source, qui, bien qu’il ne soit pas vraiment
+adapté au travail graphique, simplifie grandement les colla-
+borations ��. Anthony Masure, « Visual Culture. Open Source Publishing, Git et le design
+graphique », strabic.fr, 28 novembre 2014, http://strabic.fr/OSP-Visual-Culture Cette faci-
+litation est d’autant plus étonnante que la classique suite
+Adobe peine encore à permettre l’édition collaborative
+de documents. Parallèlement, le partage ouvert de code
+source des projets réalisés par les designers graphiques sur
+des plateformes comme GitLab � � � ou GitHub affiche claire-
+ment une volonté de reprises et de modifications par d’autres.
+Par exemple, la typographie Avara, créée initialement par
+Raphaël Bastide, a été explicitement dessinée pour être
+retravaillée. Les possibilités de versionnement, de travail
+simultané et de reprises de code source employées dans
+la programmation sont ainsi des approches nouvelles pour
+le design graphique. Elles peuvent influencer les manières
+de travailler, voire les formes graphiques elles-mêmes, qui
+se retrouvent impactées par la possibilité d’observer le travail
+des autres à différents moments du processus de conception.
+Dans le domaine du graphisme, le nombre de res-
+sources disponibles aujourd’hui et partagées sous licences
+libres sur Internet est considérable, allant des pictogrammes aux
+illustrations. C’est toutefois plus spécifiquement le domaine
+de la typographie qui a le plus contribué à la diffusion de la
+culture du libre auprès des designers graphiques, et princi-
+palement en France et en Belgique. Beaucoup de caractères
+typographiques sont diffusés sous licence libre, à l’image des
+logiciels libres, qui sont réutilisables et modifiables ��. Frank
+Adebiaye, « Licencier ès lettres », Back Office, nº 1, Paris, Édition B42 et Fork Éditions, 2017.
+L’adoption de typographies libres de droits s’est alors
+fortement développée dans les écoles et dans les pratiques
+professionnelles, surtout depuis 2010 et la fondation par Frank
+Adebiaye de la désormais célèbre fonderie Velvetyne. On peut
+regretter néanmoins que cet usage enthousiaste se fasse
+souvent dans un rapport de consommation, où les polices
+de caractères sont choisies parce qu’elles sont accessibles
+gratuitement, sans que les enjeux de la culture du libre soient
+réellement appréhendés. Cette question rejoint celles qui sont
+amplement connues et discutées dans le milieu de la program-
+mation et auxquelles les designers graphiques ne pourront pas
+échapper : si beaucoup consomment du libre, beaucoup moins
+y contribuent ; qu’en est-il alors de l’esprit de communauté
+et d’autonomie de production porté par la culture du libre ?
+Cette culture à la forte dimension éthique soulève
+d’autres questions. Le rejet des outils non libres va parfois,
+dans un mimétisme avec la culture de certains programmeurs,
+jusqu’à un rejet paradoxal pour des designers graphiques ��. Eric
+Schrijver, op. cit. à la note 26, des interfaces graphiques et donc des logiciels
+de PAO. Cela participe, entre autres, à accentuer une fracture
+qui demeure entre les designers graphiques qui programment
+et ceux qui ne programment pas. Il est utopique de penser que
+tous les graphistes pourront se mettre à la programmation,
+24 25
+malgré les enjeux de la culture libre de plus en plus présents
+dans les discours et les écoles. Il reste encore à inventer
+un répertoire d’outils intermédiaires prenant en compte plu-
+sieurs modalités d’interactions (textuelle et/ou graphique)
+et permettant de répondre au développement de pratiques
+de plus en plus hybrides ��. Alexandre Leray et Stéphanie Vilayphiou, « About: Alan
+Kay, “A User Interface: a Personal View” », Considering your tools. A reader for designers and deve-
+lopers, 2013, en ligne, http://reader.lgru.net/texts/about-alan-kay-a-user-interface-a-personal-view/
+Le Web introduit des enjeux spécifiques pour le design
+graphique
+Il semble aujourd’hui que le Web, dans sa position
+hybride d’outil et de support de publication, soit au carrefour
+d’enjeux spécifiques dans le paysage des designers graphiques
+adoptant les pratiques de programmation, tout en restant
+souvent peu commenté.
+Ces dix dernières années, la multiplication des appa-
+reils numériques a engendré la multiplication des tailles
+et types d’écrans sur lesquels peuvent être affichées des pages
+web (ordinateurs, tablettes, smartphones mais aussi projec-
+teurs, télévisions, etc.). Les conditions de consultation d’un
+même site varient donc considérablement d’un lecteur
+à l’autre. Une des principales caractéristiques du design d’un
+site web consiste à adapter le design (fonctionnalités,
+interactions et mises en page) en fonction des différents
+paramètres ou caractéristiques de l’appareil où le site sera
+affiché, ainsi que l’environnement dans lequel il sera consulté.
+Le principe le plus connu est le besoin d’adapter le design
+graphique à la taille de l’écran, mais il est théoriquement pos-
+sible que le lecteur puisse lui-même définir ses propres styles
+d’affichage, comme cela a été proposé dès les origines de CSS.
+Ainsi, les lecteurs et lectrices peuvent désormais contrôler
+l’affichage du contenu, ne serait-ce que par un changement
+de taille de fenêtre ou par le paramétrage d’un mode « nuit »
+sur les navigateurs. Alors que les designers graphiques ont pris
+l’habitude d’une parfaite maîtrise de la forme imprimée finale,
+ces différents points marquent un changement radical dans
+leur manière d’appréhender leur discipline ��. Miriam Eric Suzanne, CSS
+is Rad. Resilient design on an infinite canvas, 2020, en ligne, https://www.miriamsuzanne.com/
+speaking/css-rad/
+Afin de répondre à cette multiplicité d’affichage, le Web
+repose sur un principe de séparation du fond et de la forme entre
+HTML et CSS, que nous avons déjà évoqué. Les éléments codés
+en HTML ne changent pas et c’est en CSS que va être déclarée
+leur manière d’être affichés en fonction de la taille de l’écran.
+Il s’agit de la même information, qui est consultée d’un
+appareil à l’autre, mais ses composantes formelles sont orga-
+nisées différemment pour rendre la navigation ergonomique
+et la lecture optimisée en toutes circonstances. La conception
+est marquée par un changement de paradigme pour les desi-
+gners graphiques, qui doivent alors décrire le comportement
+possible des éléments à l’aide d’une panoplie de principes
+proposés dans les langages du Web : gabarits, feuilles de style
+contextuelles, structuration sémantique, notion de flux, etc.
+Or, les outils dont ils disposent aujourd’hui pour concevoir
+
+des prototypes visuels de publication (Sketch, Figma,
+Adobe XD, Webflow) manquent l’essentiel de ces principes
+en étant trop calqués sur les logiciels de mise en page de PAO
+dédiés à des supports imprimés et/ou fixe. Seule la maîtrise
+de l’aspect technique du Web, et donc de ces langages, permet
+actuellement d’en comprendre le potentiel et de proposer des
+formes graphiques adaptées et créatives. Les designers gra-
+phiques doivent pour cela accepter une certaine déprise dans
+les formes qu’ils produisent en vue de convenir au caractère
+intrinsèquement fluide et ouvert du Web.
+Cette conception de la mise en forme graphique qui
+oblige à penser en dehors des limites du format de la page
+a transformé profondément les pratiques récentes, mais dans
+le même temps renoue avec des manières de travailler la mise
+en forme antérieures à l’apparition des logiciels de PAO, où les
+designers graphiques ne pouvaient travailler qu’à partir de gaba-
+rits et de feuilles de style. Dans un article récent publié dans
+la revue Design Arts Médias, nous formulions ainsi cette hypo-
+thèse : « La notion de feuille de style à l’origine de l’appellation
+de CSS est définie comme “un ensemble de règles qui asso-
+cient des propriétés et des valeurs stylistiques aux éléments
+structurels d’un document, exprimant ainsi la manière de pré-
+senter le document” ��. « A set of rules that associate stylistic properties and values
+with structural elements in a document, thereby expressing how to present the document » (Håkon
+Wium Lie, Cascading Style Sheets, thèse de doctorat, université d’Oslo, 2005, p. 77). C’est une
+définition tout à fait compatible avec la production de livres
+imprimés. Elle nous rappelle qu’avant l’apparition de la PAO
+le travail des designers et typographes consistait à fournir
+à l’imprimeur (composition au plomb) ou l’opérateur (photo-
+composition) un ensemble de règles stylistiques et de contraintes
+définissant le gabarit d’un livre et les caractéristiques des
+blocs typographiques. Coder en CSS consiste à fournir ces
+mêmes informations au navigateur web » ��. Julie Blanc, « Si Jan Tschichold
+avait connu les feuilles de style en cascade : plaidoyer pour une mise en page comme programme »,
+in Kim Sacks et Victor Guégan (dir.), Design Arts Medias, « Systèmes : logiques, graphies,
+matérialités », août 2022, en ligne, https://journal.dampress.org/issues/systemes-logiques-graphies-
+materialites/si-jan-tschichold-avait-connu-les-feuilles-de-style-en-cascade-plaidoyer-pour-une-mise-
+en-page-comme-programme Dans un second article de cette même revue,
+nous postulons que, en ce sens, l’ère de la PAO n’aurait été
+finalement qu’une parenthèse dans l’histoire du graphisme,
+un moment spécifique durant lequel il n’y a plus eu de sépa-
+ration stricte entre mise en page et mise en texte ��. Nolwenn Maudet,
+« Une brève histoire des templates, entre autonomisation et contrôle des graphistes amateurs »,
+in Sacks et Guégan (dir.), ibid., https://journal.dampress.org/issues/systemes-logiques-graphies-
+materialites/une-breve-histoire-des-templates-entre-autonomisation-et-controle-des-graphistes-
+amateurs Les pratiques de programmation actuelles, particuliè-
+rement avec les technologies du Web, invitent donc à écrire
+une nouvelle page de l’histoire du design graphique, ancrées
+dans la longue histoire de ses évolutions techniques.
+⁂
+Alors qu’il y a dix ans, les pratiques du code étaient rela-
+tivement rares dans le paysage du design graphique en France,
+elles sont aujourd’hui beaucoup plus présentes, tout en
+se concentrant sur des registres spécifiques. Certains des
+projets cités dans ce texte font école et les pratiques d’OSP,
+de LUST ou de G.U.I. sont citées abondamment par les étu-
+diants en école d’art comme des références. Ainsi, ces der-
+nières années, se sont formées une communauté et une culture
+du design graphique utilisant la programmation relativement
+spécifique à l’Europe de l’Ouest, avec une véritable synergie
+entre la France, la Belgique, la Suisse et les Pays-Bas. Alors
+qu’ils ont eu des difficultés à s’établir une place dans ce pay-
+sage, le webdesign et le web to print trouvent maintenant
+un écho particulier dans ces communautés, forgeant un mou-
+vement reconnaissable à son attention portée à des pratiques
+« artisanales » soutenues par les enjeux de la culture du libre
+et par ceux qui sont spécifiques à la fluidité du Web.
+Ainsi les designers graphiques codent-ils pour être
+au plus près des supports de lecture et de communication avec
+lesquels ils travaillent. Ils participent à étendre le domaine des
+pratiques du design graphique, poursuivant un mouvement
+initié depuis la période de la photocomposition, qui marquait
+déjà « l’élargissement progressif des prérogatives [du typo-
+graphe] bien au-delà de la seule gestion du signe typogra-
+phique, jusqu’au champ fort extensif “graphisme”, identifié,
+dans la seconde moitié du siècle, à une maîtrise globale
+de la communication visuelle et des formes multiples de ren-
+contre entre le texte et l’image » ��. Olivier Lugon, « Le graphisme, “activité totale” :
+28 29
+typographie, photographie, exposition », in Collectif, Design graphique, les formes de l’histoire,
+Paris, Éditions B42 et Cnap, 2017, p. 79.
+Ces pratiques du code contribuent en même temps
+à dépasser les approches issues des logiciels à interfaces
+graphiques qui avaient poussé les designers graphiques
+à adopter l’informatique comme principal outil au début des
+années 1990. Toutefois, en dehors du Web, cette culture
+de la programmation dans le design graphique peine à se déve-
+lopper, car elle rencontre peu de public. Outre les exemples
+de Prototypo et de TexTuring, les programmes et outils dédiés
+à un projet ou à une tâche spécifique sont difficilement appropri-
+ables par les non-programmeurs, qui restent attachés à la mani-
+pulation directe permise par les interfaces graphiques. Pour
+ouvrir la culture du numérique à une plus grande part des
+designers graphiques, il convient donc de s’interroger au sujet
+des approches hybrides proposant d’appréhender les relations
+entre code, outils et design graphique de manière collective.
