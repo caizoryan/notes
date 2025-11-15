@@ -11,9 +11,9 @@ The poster uses three main colors. A tone of blue, a tone of magenta and flurosc
 
 The colors used in the projections are red, yellow, green and blue. They exist in a RGB color environment. However instead of light coming from individual LED pixels to combine into an image, a laser projector creates images by directing laser beams which are RGB(red, green, blue) onto a screen using mirrors. A digital signal modulates beam intensity and position rapidly, forming pixels and motion.
 
-(3) reasoning as to why those particular colours were selected
-	- how the use of colour impacts the overall atmosphere and effectiveness
-	  The colors were chosen based on an investigation of different light and color interactions.
+The reasoning to use these colors is because they are complementary colors. The colors were chosen based on an investigation of how projector lights interact with the printed lights. The projectors light when it shines on the poster to reveal the color on the opposite end. For instance blue light when projected on the poster will hide the blue color printed on the poster, and the yellow will be highlighted and become visible. 
+
+// Add how does this use of color impact overall atmosphere and effectiveneness
 
 
 ### Scientific Analysis
@@ -68,11 +68,16 @@ in a Canvas compatible and in a docx format.
 
 pdf view -> 
 https://sp.ftn.uns.ac.rs/index.php/jged/article/view/451/1282
+*"The laser printer uses a large memory to print the whole page at once. The digital page view creat-ed in the memory of the printer is transferred to the drum with the help of a laser gun. Toner sticks to the parts of the drum magnetized by the laser beam. In this way, the desired characters and graph-ics are formed on the paper touching the drum."*
 
 2. Relationship between Paper Whiteness and Color,
 Reproduction in Inkjet Printing, Guichun Hu,a,b,c,* Shiyu Fu,c Fuqing Chu,a and Maohai Lin a
 https://sci-hub.ru/10.15376/biores.12.3.4854-4866
+*"The paper gloss mainly affects the print color intensity because it influences the
+degree to which light is reflected"*
 
 3. Optical paper properties and their influence on colour reproduction and perceived print quality
+*"Literature review showed that physical and mechanical properties of paper play an important role in its runnability and printability, while optical properties play a factor in determining the quality of a print."*
 
 4. A Model of How Interreflections Can Affect Color Appearance
+*"The color appearance of a surface depends on both the spectrum of the illuminant and the spectral reflectance of the surface."*
