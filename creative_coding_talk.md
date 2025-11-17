@@ -52,7 +52,7 @@ When I start to **program** and think of **ways in which books can be taken apar
 
 I've been using programming as a tool to investigate what these words mean and how they relate to one another.
 
-###### ---
+###### Typesetting
 The first thing that comes to mind when you think of a software that can make books, is: words.
 
 So, lets start there. To display a word--
@@ -68,7 +68,7 @@ I know p5 can do this for you, but if you write this from scratch you can hook i
 
 etc...
 
-###### ---
+###### units
 Ok so whats next? I have words on a white box, but how can I turn this white box into paper?
 
 I can print it... but it won't look the same. And also a bit blurry (which might have to do with the DPI/PPI)
@@ -79,12 +79,33 @@ So here's the units you'll probably see in CSS, this is the stuff we use in our 
 
 real units -> [em, inch, point, pica]
 
-###### ---
-So now 
-[em, inch, points] -> become units now to find and place stuff on surface
-grid to make legible space
+###### grid (recto verso)
+So now we can use these units to place things on the surface.
+But if I wanna say place this text box on the right page. It becomes cumbersome because I have to get the width, / by 2 and the get the start position for right page etc, etc.
+
+So I need to make this surface legible as a spread. 
+-> whats a spread
+a spread is when you see an open surface in a book, so both the right and left page combining to form a surface. The term for these pages (left and right) is (verso and recto)
+
+right -> recto
+That's how I remember it.
+
+-> has a recto and verso
+
+How do we make it legible -> grids!
+Grids store the spread size, calculates the center, and generally makes the surface legible as a spread. 
+
+Just like the units turned the canvas context into a page, grid turns the page into a spread. (also the fact that the page is folded helps)
+
+I also like thinking of the typographic grid as making the surface legible just as a programs make legible memory on a computer.
+
+###### Sequencing spreads
+So up until
+Book stores spreads, book.draw() draws current spread
+
 
 ###### --- 
+So here's the fun part.
 imposition
 [explain imposition]
 [single signature, two signatures]
@@ -100,16 +121,22 @@ I needed to utilize the affordances that came from building this tool from the g
 
 And I had just spent all this time trying to figure out imposition. So naturally I started messing around with this.
 
+###### V ertical offsets
 vertical offsets -> where do pages/spreads get rendered
 
 
-###### ---
+###### Horizontal offsets
 horizontal offsets -> this one is a little bit more tricky...
 because with verical offsets I could just draw pages at an offset,
 but with horizontal offset, 
 [page sizes change]
 So cant rely on page size to be same...
 
+######  Accordion books
+Renaming Book to Signature
+
+###### Virtual Spreads
+All spreads are virtual. 
 
 ###### --- 
 So once more
