@@ -15,9 +15,9 @@
 - [ ] Make video
 
 ### if - m
-- [ ] Do the alt-skool layer
+- [x] Do the alt-skool layer
+- [x] Outline for talk -> [see](./talk.md) (November 16)
 - [ ] Make a basic prototype for sheeep
-- [ ] Outline for talk -> [see](./talk.md) (November 16)
 
 ### Academics
 ##### new media
