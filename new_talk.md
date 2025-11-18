@@ -32,8 +32,10 @@ I think to myself, ok I have the syntax that is afforded to me by javascript and
 
 So breaking down these vocabularies and thinking how can they be constituted in a software context.
 
+#### the parts
 So I start by thinking whats the first thing I need to do?
 
+###### text
 Draw text on a screen.
 
 ```
@@ -42,6 +44,7 @@ text("this is some text", 10, 20)
 
 So I did that, and it worked. But then I realised, all of these values are in pixels. But I'm a graphic designer so I want points, picas, ems and inches.
 
+###### units
 So I write this some functions that will convert values from any one unit to pixels. 
 ```
  em = (v) => inch(v) / 6
@@ -61,7 +64,9 @@ So the same way I can also create a letter size page
 createCanvas(inch(11), inch(8.5))
 ```
 
-But when we're looking at books.
+
+###### spreads, recto verso & grid
+When we're looking at books.
 
 [show a picture of an open book]
 
@@ -101,6 +106,7 @@ text("some other text", grid.recto + inch(1), inch(.5))
 text("some other text", grid.rectoColumn(2), inch(.5))
 ```
 
+###### sequencing
 Up until now we've been drawing single spreads. But books have multiple spreads.
 
 So I need a way to represent a spread as code so it can be collected in a book. In that case, a spread is just a collection of drawable elements (text, shapes, images).
@@ -140,6 +146,7 @@ drawBook = spreads, pageNumber => {
 Done! we can print this out and we're good :)
 right?
 
+###### imposition
 But there's one critical problem. If we look a book, what we percieve as spreads are separate sheets. A spread gets viewed as one surface but is printed on separate sheets (except the one in the middle of the signature).
 
 So the spreads have to be drawn virtually, split into individual pages and imposed onto several different sheets in a way that then can be bound together to form a booklet. 
@@ -161,12 +168,46 @@ This is how I figure out difficult problems sometimes. I just record myself or d
 
 Anyways, I finally figured it out and the current implementation looks something like this.
 
-// After imposition.
+[image of the code]
+
+I won't explain this because I'll run out of time.
+
+and finally I just need so I can make pairs of any 2 pages based on the configuration I need for printing.
+
+```
+versoImage = spread => {
+  // draw spread to a buffer
+  // clip out the verso region using grid
+  // return image
+}
+
+rectoImage = spread => {/*same stuff*/}
+
+drawPair = (spreads, [recto, verso]) => {
+  // get the recto and verso images using spreads
+  // draw them on current canvas
+}
+
+```
+
+So with this now I can design spreads
+[show spreads]
+
+export as shuffled
+[show saddle view]
+
+print them out and bind them as a book.
+[show printed]
+
+So with all of this in some sense I have a complete publication tool!
+
+#####  After imposition.
 So upon figuring this out, I had found 3 critical things that (sometting tsomething)
 
 1. Spreads are virtual surfaces. which means they can be designed as a surface separate from the actual physical surfaces
 
-2. Making a publication software was about reconcilling physical sheets and virtual surfaces (+ represent how the post production view of this reconcillment would look like)
+2. Making a publication software was about reconcilling physical sheets and virtual surfaces 
+(+ represent how the post production view of this reconcillment would look like)
 
 3. I can use the above 2 things to make so many different types of books!
 
