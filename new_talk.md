@@ -2,14 +2,15 @@
 
 Thesis: Understanding design vocabulary by reconstructing it in software.
 #### introduce yourself
-
-
+Hey everyone, I'm Aaryan. I'm a graphic design student. And I aslo code.
 #### Explain stuff
-// today I'm going to present a publication design tool that I've been working on
+Today I'm going to present a publication design tool that I've been working on and just break the tool down into the parts that make it whole and also talk a little bit about my process.
 
-Say: The tool is not a single application but more like several seperate mutations of the same codebase for different tasks. 
+Say: The tool isn't a concrete thing or a single application but more like several seperate mutations of the same codebase that I've used for different tasks. 
 
 But the thing that binds them all together is a shared vocabulary.
+
+Describe typographic (?)
 A typographic vocabulary encoded as code.
 
 #### show the stuff
@@ -19,11 +20,13 @@ A typographic vocabulary encoded as code.
 Describe typographic (?)
 Earlier I mentioned that what binds these tool(s) together is a shared vocabulary. And this vocabulary is a typographic vocabulary that you get exposed to as a graphic designer. And I've been using programming as a tool to probe and understand this design vocabulary by reconstructing it in software.
 
-// so my first intention was to make an alternative to indesign
+// so my first intention was to make an alternative to indesign. If you don't know indesign its a software used to make books.
 
-But because I was building this thing from scratch I was thinking of words such as recto, verso, grids, page numbers, folios, text boxes, and all of the bits and pieces that constitute this thing called a book.
+But because I was building this thing from scratch I was thinking of words such as recto, verso, grids, page numbers, folios, text boxes, and all of the bits and pieces that constitute this thing called a book. 
 
-Without any conceptions of how these terms translate from words into a working thing.
+I'll explain what these words mean in a minute.
+
+And I at this point I have no conceptions of how these terms will translate from words into a working thing.
 
 So I was building all of this from scratch,
 
@@ -141,6 +144,8 @@ drawBook = spreads, pageNumber => {
 Done! we can print this out and we're good :)
 right?
 
-But there's one critical problem. If we look 
+But there's one critical problem. If we look a book, what we percieve as spreads are separate sheets. A spread gets viewed as one surface but is printed on separate sheets (except the one in the middle of the signature).
+
+So the spreads have to be drawn virtually, split into individual pages and imposed onto several different sheets in a way that then can be bound together to form a booklet. 
 
  
