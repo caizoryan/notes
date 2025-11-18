@@ -170,5 +170,4 @@ So upon figuring this out, I had found 3 critical things that (sometting tsometh
 
 3. I can use the above 2 things to make so many different types of books!
 
-
 Once I figured out this distinction
