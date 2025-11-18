@@ -24,21 +24,16 @@ Earlier I mentioned that what binds these tool(s) together is a shared vocabular
 
 But because I was building this thing from scratch I was thinking of words such as recto, verso, grids, page numbers, folios, text boxes, and all of the bits and pieces that constitute this thing called a book. 
 
-I'll explain what these words mean in a minute.
+I'll explain what these words mean in a minute. Because I'm going to break these terms down, this is also going to sound a little bit like How to make books 101... but yeah.
 
-And I at this point I have no conceptions of how these terms will translate from words into a working thing.
+Anywas, I'm at this starting point and I have no conceptions of how these terms will translate from words into a working thing. So I was building all of this from scratch,
 
-So I was building all of this from scratch,
+I think to myself, ok I have the syntax that is afforded to me by javascript and p5 and they can make things appear, and I have to use this to somehow encode typographic concepts. From scratch.
 
-???
-so I was basically god. [wizard picture, (silly)]
-???
-
-So I have the syntax that is afforded to me by javascript and p5 and I have to use that to encode typographic concepts. From scratch.
-
-So breaking down these vocabularies and thinking how they can be constituted in a software context.
+So breaking down these vocabularies and thinking how can they be constituted in a software context.
 
 So I start by thinking whats the first thing I need to do?
+
 Draw text on a screen.
 
 ```
@@ -47,12 +42,13 @@ text("this is some text", 10, 20)
 
 So I did that, and it worked. But then I realised, all of these values are in pixels. But I'm a graphic designer so I want points, picas, ems and inches.
 
-So I write this class that will convert values from any one unit to pixels. 
+So I write this some functions that will convert values from any one unit to pixels. 
 ```
-Scale -> {
- em: (v) -> calculates what that will be in pixels
+ em = (v) => inch(v) / 6
+ pica = (v) => em(v)
+ point = (v) => pica(v) / 12
+ inch = (v) => value * dpi 
  ... etc
-}
 ```
 
 Now that I have units and I can use these units instead of pixel values which would correspond to their physical positions on a printed page.
@@ -148,4 +144,31 @@ But there's one critical problem. If we look a book, what we percieve as spreads
 
 So the spreads have to be drawn virtually, split into individual pages and imposed onto several different sheets in a way that then can be bound together to form a booklet. 
 
- 
+So if you're doing 2 sheets of paper, that gives you 4 spreads (surfaces). 
+[show sheets]
+[show a flip through]
+
+which means the configurations needs to be something like:
+[show configuration of sheets]
+
+This is the algorithm for it
+[sketchbook image]
+
+This is also the algorithm 
+[video of shuffle]
+
+This is how I figure out difficult problems sometimes. I just record myself or draw and try to identify the patterns.
+
+Anyways, I finally figured it out and the current implementation looks something like this.
+
+// After imposition.
+So upon figuring this out, I had found 3 critical things that (sometting tsomething)
+
+1. Spreads are virtual surfaces. which means they can be designed as a surface separate from the actual physical surfaces
+
+2. Making a publication software was about reconcilling physical sheets and virtual surfaces (+ represent how the post production view of this reconcillment would look like)
+
+3. I can use the above 2 things to make so many different types of books!
+
+
+Once I figured out this distinction
