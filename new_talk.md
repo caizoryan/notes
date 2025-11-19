@@ -14,17 +14,17 @@ Describe typographic (?)
 A typographic vocabulary encoded as code.
 
 #### show the stuff
--> Before I talk about it, here are some demos:
+-> So before I dive into the process and the parts of the tool, let me give you a quick demo. 
 > shows: demos + the outcomes
 
 Describe typographic (?)
 Earlier I mentioned that what binds these tool(s) together is a shared vocabulary. And this vocabulary is a typographic vocabulary that you get exposed to as a graphic designer. And I've been using programming as a tool to probe and understand this design vocabulary by reconstructing it in software.
 
-// so my first intention was to make an alternative to indesign. If you don't know indesign its a software used to make books.
+So my first intention was to make an alternative to Adobe InDesign. which is Adobe's publicaition software.
 
-But because I was building this thing from scratch I was thinking of words such as recto, verso, grids, page numbers, folios, text boxes, and all of the bits and pieces that constitute this thing called a book. 
+But because I was building this thing from scratch I was thinking of words such as recto, verso, grids, page numbers, folios, text boxes, and all of the bits and pieces that constitute this thing called a book. I started thinking more about this project in terms of parts of a book that make it a whole and how they relate to one another.
 
-I'll explain what these words mean in a minute. Because I'm going to break these terms down, this is also going to sound a little bit like How to make books 101... but yeah.
+I'll explain what these words mean in a minute. Because I'm going to break these terms down when I get to the parts that make the tool, and its going to sound a little bit like How to make books 101...
 
 Anywas, I'm at this starting point and I have no conceptions of how these terms will translate from words into a working thing. So I was building all of this from scratch,
 
@@ -202,13 +202,17 @@ print them out and bind them as a book.
 So with all of this in some sense I have a complete publication tool!
 
 #####  After imposition.
-So upon figuring this out, I had found 3 critical things that (sometting tsomething)
+So upon figuring this out, I found 3 critical things that changed my perspective on what this tool or this project was.
 
 1. Spreads are virtual surfaces. which means they can be designed as a surface separate from the actual physical surfaces
+[show an example of virtual surface across two bookelts]
+[show a booklet cut fold]
 
-2. Making a publication software was about reconcilling physical sheets and virtual surfaces 
-(+ represent how the post production view of this reconcillment would look like)
+2. Making a publication software is just about reconcilling physical sheets and virtual surfaces (spreads)
+(+ also represent a view of the final form)
+[show using different color sheets] -> reconciling sheets
+[show vertical offset] -> representing a view of final form
+[so page numbers aren't discrete but continuous]
 
-3. I can use the above 2 things to make so many different types of books!
+3. I can play with the syntax and mechanics of what words mean when the vocabulary is constructured. And use this as an affordance to alter the form of the book.
 
-Once I figured out this distinction
