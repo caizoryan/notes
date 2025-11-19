@@ -19,16 +19,15 @@ A typographic vocabulary encoded as code.
 
 Describe typographic (?)
 Earlier I mentioned that what binds these tool(s) together is a shared vocabulary. And this vocabulary is a typographic vocabulary that you get exposed to as a graphic designer. And I've been using programming as a tool to probe and understand this design vocabulary by reconstructing it in software.
+So when I say vocabulary,
+I mean the concepts of design -> point
+But I also mean the named functions and mechanisms <- point
 
 So my first intention was to make an alternative to Adobe InDesign. which is Adobe's publicaition software.
 
 But because I was building this thing from scratch I was thinking of words such as recto, verso, grids, page numbers, folios, text boxes, and all of the bits and pieces that constitute this thing called a book. I started thinking more about this project in terms of parts of a book that make it a whole and how they relate to one another.
 
 I'll explain what these words mean in a minute. Because I'm going to break these terms down when I get to the parts that make the tool, and its going to sound a little bit like How to make books 101...
-
-Anywas, I'm at this starting point and I have no conceptions of how these terms will translate from words into a working thing. So I was building all of this from scratch,
-
-I think to myself, ok I have the syntax that is afforded to me by javascript and p5 and they can make things appear, and I have to use this to somehow encode typographic concepts. From scratch.
 
 So breaking down these vocabularies and thinking how can they be constituted in a software context.
 
@@ -54,6 +53,9 @@ So I write this some functions that will convert values from any one unit to pix
  ... etc
 ```
 
+so these take in values and calculate the pixel value equivalent. These units are just ratios of each other. 
+But as long as these units work, everything will be in correct ratios. And I can work at a lower pixel density for performance but for exporting increase that and everything stays in the correct ratio.
+
 Now that I have units and I can use these units instead of pixel values which would correspond to their physical positions on a printed page.
 ```
 text("some other text", inch(1), inch(.5))
@@ -64,6 +66,7 @@ So the same way I can also create a letter size page
 createCanvas(inch(11), inch(8.5))
 ```
 
+Units somehow give this p5 canvas the validity of a letter size sheet. Like because I can say that this canvas is 11inches wide and 8.5 inches tall I can clock it that this is a letter size sheet. So I'm like ok, so what I need to do is just make the interaction with the p5 canvas be mediated through this vocabulary and I'll be making books!
 
 ###### spreads, recto verso & grid
 When we're looking at books.
@@ -76,35 +79,48 @@ We're not really looking at a single sheet of paper. We're looking at two folded
 
 And this spread has a left side and a right side. In graphic design jargon the left page is called a verso and the right page is called a recto.
 
-So I somehow need to be able to access the right page, the recto.
+So just like we used units to validate the canvas as a sheet of paper, if we can somehow constitute this canvas as two pages, so the verso and recto, then we can think of this canvas as a spread.
 
-So I would need an object that knows the spread size (different from page size). So this object can divide the width by 2 to get the position of where the right page would start.
+So when I think of this structure, the first word that comes to my mind is Grid!
+Grid's come in lots of configuration.
+For simplicity's sake lets say 
+- grid is split into two sides, recto and verso. 
+Each side has margins, columns and and hanglines.
+- You can use columns for horizontal positions and 
+- hanglines for vertical positions
 
-And where better to store this than the grid. The grid as a structure that helps locate points on a page.
+So the grid is a structure that helps us locate points on a page.
 
 ```
-grid = spread dimensions => {
-  recto = position,
-  verso = position,
-  columns = position,
-  hanglines = position,
+grid = ({
+	width, 
+	height,
+	columnCount,
+	hanglineCount,
+	margins,
+}) => {
+  // recto -> width / 2 + margins... etc
+  recto     = /* calculates x position */, 
+  verso     = /* calculates x position */,
+  columns   = /* calculates x positions */,
+  hanglines = /* calculates y positions */,
 }
 ```
 
-This grid gives me a structure so that I can find positions for either of the pages, divide them into columns and store hanglines. 
+This grid gives me a structure so that I can find positions for either of the pages, and divide them into columns and hanglines. 
 
 [diagram of hanglines and columns]
 
-Essentially the grid along with the units make this p5 canvas legible as a spread of a book.
-
 ```
-let grid = Grid({width: inch(10), height:inch(8)})
+let grid = Grid({width: inch(10), height: inch(8), ...others })
 text("some other text", grid.recto + inch(1), inch(.5))
 
 //or
 
 text("some other text", grid.rectoColumn(2), inch(.5))
 ```
+
+Essentially the grid along with the units make this p5 canvas legible as a spread of a book.
 
 ###### sequencing
 Up until now we've been drawing single spreads. But books have multiple spreads.
@@ -120,14 +136,15 @@ let spread = [
   ],
 
   ['circle', 
+	['radius', ['inch', .5]]
 	['x', ['rectoColumn', 2]],
 	['y', ['inch', 1]]
-	['radius', ['inch', .5]]
   ],
 ]
 ```
-And a function to draw these contents to a surface
+ I won't explain right now why they're arrays and not objects or bound functions here in the interest of time and coherency, but if you're interested please ask me later about it.
 
+So then if we have these contents as data, we just need a function to draw these contents to a surface.
 ```
 drawSpread = contents => {
   // clears screen
@@ -136,14 +153,14 @@ drawSpread = contents => {
 ```
 
 And then implementing a book is easy. 
-The function takes in spreads -> list of spreads and a page number and then draw the spread at the given page number.
+The function takes in an array of spreads a page number and then draw the spread at the given page number.
 ```
 drawBook = spreads, pageNumber => {
-	drawSpread(spreads[pageNumber])
+  drawSpread(spreads[pageNumber])
 }
 ```
 
-Done! we can print this out and we're good :)
+Ok so we make a bunch of spreads, pass it to draw book, see all these spreads, edit if we need and that's it we can print it out and we're good right?
 right?
 
 ###### imposition
@@ -183,9 +200,16 @@ versoImage = spread => {
 
 rectoImage = spread => {/*same stuff*/}
 
-drawPair = (spreads, [recto, verso]) => {
+drawPair = 
+  (spreads, [rectoPage, versoPage]) =>
+{
   // get the recto and verso images using spreads
+  let recto = rectoImage(spreads[rectoPage])
+  let verso = versoImage(spreads[versoPage])
+
   // draw them on current canvas
+  img(verso, 0, 0)
+  img(recto, grid.recto, 0)
 }
 
 ```
