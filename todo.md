@@ -12,7 +12,7 @@
 - [work on](./books_coding_process.md)
 
 ### ipco
-- [ ] Make video
+- [x] Make video
 
 ### if - m
 - [x] Do the alt-skool layer
@@ -31,12 +31,12 @@
 *Thinking of doing a video essay for this Something like Michael snow's cover to cover.*
 *But video. Make bunch of books, use spreads as landscapes. Page turns as movements, etc.*
 
-- [ ] Rough Draft (November 16)
+- [x] Rough Draft (November 16)
 - [ ] Final (November 30)
 - [x] ~~Make 1 min video~~
 
 ### parents
-- [ ] make a reel for launch
+- [x] make a reel for launch
 - [ ] find date for graduation
 ### emacs
 - [ ] todo.txt with markdown

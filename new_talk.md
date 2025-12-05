@@ -100,10 +100,11 @@ grid = ({
 	margins,
 }) => {
   // recto -> width / 2 + margins... etc
-  recto     = /* calculates x position */, 
-  verso     = /* calculates x position */,
-  columns   = /* calculates x positions */,
-  hanglines = /* calculates y positions */,
+  recto        = /* calculates x position */, 
+  verso        = /* calculates x position */,
+  rectoColumns = /* calculates x positions */,
+  versoColumns = /* calculates x positions */,
+  hanglines    = /* calculates y positions */,
 }
 ```
 
@@ -112,12 +113,12 @@ This grid gives me a structure so that I can find positions for either of the pa
 [diagram of hanglines and columns]
 
 ```
-let grid = Grid({width: inch(10), height: inch(8), ...others })
-text("some other text", grid.recto + inch(1), inch(.5))
+let Grid = grid({width: inch(10), height: inch(8), ...others })
+text("some other text", Grid.recto + inch(1), inch(.5))
 
 //or
 
-text("some other text", grid.rectoColumn(2), inch(.5))
+text("some other text", Grid.rectoColumn(2), inch(.5))
 ```
 
 Essentially the grid along with the units make this p5 canvas legible as a spread of a book.
@@ -146,7 +147,7 @@ let spread = [
 
 So then if we have these contents as data, we just need a function to draw these contents to a surface.
 ```
-drawSpread = contents => {
+drawSpread = (contents, grid) => {
   // clears screen
   // loops over content and draws each of them
 }
@@ -226,6 +227,26 @@ print them out and bind them as a book.
 So with all of this in some sense I have a complete publication tool!
 
 #####  After imposition.
+
+So now that I've defined this vocabulary, and defined them as code. I can sort of mold them into slightly different versions of them. 
+
+Like maybe recto doesn't start at (width / 2) 
+// show offset
+
+Or maybe 
+// show offset
+
+
+
+
+
+
+
+
+
+
+
+
 So upon figuring this out, I found 3 critical things that changed my perspective on what this tool or this project was.
 
 1. Spreads are virtual surfaces. which means they can be designed as a surface separate from the actual physical surfaces

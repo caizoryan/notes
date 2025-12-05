@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>eadreflection.html</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+</head>
+
+<body>
+
+<h1 id="ead">EAD</h1>
+
+<h3 id="reflections">Reflections</h3>
+
+<p>Just finished the EAD project with craig. First collaborative project with this tool using the discussion method<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote"><sup>1</sup></a>. Learned a lot of things from the fact that&#8211;</p>
+
+<ol>
+<li>We were working with long text (and linked textboxes weren&#8217;t working)</li>
+<li>Large set of pages and content + moving things around often</li>
+<li>Using mainly the UI for editing and content movement&#8230;</li>
+<li>Having someone to work with who could give me feedback on type in terms of the (programming) language I was working with.</li>
+</ol>
+
+<p>Working on a type not as a means to test out things I implemented but rather in service of the type. So desigining it as I would any composition and then desiring a certain graphic technique to alter the composition (baseline shift, linebreak on word patterns, etc). Then implementing these things.</p>
+
+<p>This shift in perspective oriented me towards a certain task rather than loosely going along implementing stuff.</p>
+
+<p>I think the recursive way of implementing documenting that I&#8217;ve been doing hasn&#8217;t worked out for me. Because it launches me onto tangents rather than consolidating effort towards more practical things. So I&#8217;m going to orient the making towards specific projects, take a week to implement what reflections come out of the project and repeat.</p>
+
+<h3 id="thingstoimprove">Things to improve</h3>
+
+<p>&#8230;in the tool</p>
+
+<h5 id="production">Production</h5>
+
+<p>One of the pain points during production was incorrect sizing. This was happening because we were printing the pages as jpegs. I need to figure out a way so that the file that is printed is set to be the size of the sheet. So maybe a solution can be creating a pdf that has the image set on the fullsize page including the cropmarks and bleeds.</p>
+
+<ul>
+<li>Take exported images and place them on a pdf page.</li>
+<li>Also implement bleeds</li>
+</ul>
+
+<p>The other thing I was also considering is seeing how feasible a direct pdf backend would be to implement. I think if I&#8217;m working mainly with text, image and svgs it shouldn&#8217;t be that hard.</p>
+
+<p>This -&gt; <a href="https://github.com/Hopding/pdf-lib/blob/b8a44bd24b74f4f32456e9809dc4d2d9dc9bf176/src/api/operations.ts">pdf-lib</a> seems like a good option to try out for that.</p>
+
+<ul>
+<li>Expriment with pdf-lib and try print some stuff using it. Also see if you get access to CMYK layers or something, or maybe you can tweak overall file colors or something&#8230;</li>
+</ul>
+
+<h5 id="userinterface">User Interface</h5>
+
+<h6 id="loadingandsavingfiles">Loading and saving files</h6>
+
+<blockquote>
+<p>I need to find a good way to load and save files and have version histories.</p>
+</blockquote>
+
+<p>One constant problem was the ability to load and save files. The current datastructure is just saved to to local storage so it persists if you work on a single project. But switching projects is hard. I was saving the files by just downloading it. But maybe I should implement a simple server to store and swap working files.</p>
+
+<h6 id="loadingandsavingfiles">Loading and saving files</h6>
+
+<blockquote>
+<p>Implementing views for text frame and paragraph styles and stuff, so textframes can be visually distinguished as text frames.</p>
+</blockquote>
+
+<p>After a point when there is a lot of content on the screen, browsing the datastructure trees gets extremely cumbersome. The general solution is using mouse to drag elements directly on the canvas. I&#8217;m wondering if rather I will be able to just fine tune the typography of the ui so browsing the datastructure trees can be a little more intuitive.</p>
+
+<p>In general I want to maintain the distance the designer maintains from the elements on the canvas, so elements can be seen as the result of properties and mechanics set in the datastructure rather than absolutely placed by dragging them.</p>
+
+<h6 id="afoldallandunfoldallfunction-">A fold all and unfold all function-</h6>
+
+<blockquote>
+<p>For easier browsing&#8230;</p>
+</blockquote>
+
+<h6 id="filters">Filters</h6>
+
+<p>Filters, show only arrays with certain fn symbols&#8230; So show me only textFrames or show me only Loops etc. Have it so if there is a nested textframe inside a loop, even that should show etc.</p>
+
+<h6 id="returnofthegrid">Return of the grid</h6>
+
+<blockquote>
+<p>reimplementing a grid
+And then having a ui for the grid. Implement the grid just as an object, and the values in it can just be value acceses<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote"><sup>2</sup></a>. Maybe there should also be UIs for symbols. <a href="#fn:3" id="fnref:3" title="see footnote" class="footnote"><sup>3</sup></a></p>
+</blockquote>
+
+<h6 id="sheeteditor">Sheet editor</h6>
+
+<ul>
+<li>Maybe a sheet datatype view
+so color, width/height can be used to produce a view of different type of sheets which will make using them easier.</li>
+</ul>
+
+<h6 id="togglelivemode">Toggle live mode</h6>
+
+<p>So you can edit things and not get errors constantly.</p>
+
+<h5 id="technicalstuff">Technical stuff</h5>
+
+<p>Rewrite the scale. Right now units are formatted so they store what units they are. But I don&#8217;t ever use the units post execution. Units in the UI are always only represented as pre-execution:</p>
+
+<pre><code>['em', 1]
+['inch', 1]
+</code></pre>
+
+<p>Etc. So might as well have them as simple functions that just return a number instead of packing the number in a .px</p>
+
+<p>I think doing the talk for creative coding, and trying to make it as simple as possible for reception actually made me realise&#8230; well it could just beeee that simple.</p>
+
+<p>So same thing for grid as well.</p>
+
+<p>Also wondering if there can be a way to implement a simple undo redo. Have to see how to do transaction based editing of arrays so they&#8217;re reversible and trackable.</p>
+
+<h1 id="footnotes">Footnotes</h1>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:1">
+<p>Sort of like pair programming. A way of working where collaborator is the hands, does the actual execution of software so to produce the print file, and the other helps in making decision and discuss design elements. <a href="#fnref:1" title="return to body" class="reversefootnote">&#160;&#8617;&#xfe0e;</a></p>
+</li>
+
+<li id="fn:2">
+<p>I think doing the talk for creative coding, and trying to make it as simple as possible for reception actually made me realise&#8230; well it could just beeee that simple. <a href="#fnref:2" title="return to body" class="reversefootnote">&#160;&#8617;&#xfe0e;</a></p>
+</li>
+
+<li id="fn:3">
+<p>Another thought&#8230; the <code>key</code> function could be a drop down view. But I would need to <a href="#fnref:3" title="return to body" class="reversefootnote">&#160;&#8617;&#xfe0e;</a></p>
+</li>
+
+</ol>
+</div>
+
+</body>
+</html>
