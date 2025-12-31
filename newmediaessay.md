@@ -30,15 +30,21 @@ In this way we can consider that programming languages or code (media objects) c
 
 // insert an image of a code
 
+### Visual programming languages
 So text is one representation of a programming language, or rather an interface to edit code. However programming languages or code can be represented in any various forms. This is the space visual programming languages exist. They present themselves as alternative forms of representing and manipulating with programming languages.
 
 //  insert image of a vpl with same code
 
+Scratch is the canonical example of visual programming languages. In the above example we can see a window of a scratch program.
 Encoding program structure through visual cues. For instance in the above image we can see [[[ THAT : x is contained withing y, etcc... so these cues help in comprehension of the structure and introduces spatial properties in a symbolic context. ]]]
 
 Generally this process is done through a code editor, where you can manipulate a string of text that is human readable (using words understandable and parseable by us). Visual programming languages take a step further where instead of using solely text, they give the user the ability to use graphic interfaces in order to edit text.
 
-For instance if in your code you want to enter a color, the editor can show a color picker where a value can be selected and it will output the string of value to the final program.
+
+### Accounting model vs Spatial model
+
+>Cite toby schaumna acoounting model vs spatial model.
+
 
 
 ### Programming paradigms are cultural
